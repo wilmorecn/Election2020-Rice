@@ -1,0 +1,442 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12419321
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2017 (1-Year Estimates)
+Dataset:          Social Explorer Tables:  ACS 2017 (1-Year Estimates)
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      A00001
+         Variables:
+            A00001_001:   Total Population
+
+
+      2. Population Density (Per Sq. Mile)
+         Universe:  Total Population
+         Name:      A00002
+         Variables:
+            A00002_001:   Total Population
+            A00002_002:   Population Density (Per Sq. Mile)
+            A00002_003:   Area (Land)
+
+
+      3. Land Area (Sq. Miles)
+         Universe:  Area Total
+         Name:      A00003
+         Variables:
+            A00003_001:   Area Total:
+            A00003_002:      Area (Land)
+            A00003_003:      Area (Water)
+
+
+      4. Sex
+         Universe:  Total Population
+         Name:      A02001
+         Variables:
+            A02001_001:   Total Population:
+            A02001_002:      Male
+            A02001_003:      Female
+
+
+      5. Age (Short Version)
+         Universe:  Total Population
+         Name:      B01001
+         Variables:
+            B01001_001:   Total Population:
+            B01001_002:      Under 18 Years
+            B01001_003:      18 to 34 Years
+            B01001_004:      35 to 64 Years
+            B01001_005:      65 and Over
+
+
+      6. Race
+         Universe:  Total Population
+         Name:      A03001
+         Variables:
+            A03001_001:   Total Population:
+            A03001_002:      White Alone
+            A03001_003:      Black or African American Alone
+            A03001_004:      American Indian and Alaska Native Alone
+            A03001_005:      Asian Alone
+            A03001_006:      Native Hawaiian and Other Pacific Islander Alone
+            A03001_007:      Some Other Race Alone
+            A03001_008:      Two or More Races
+
+
+      7. Households by Household Type
+         Universe:  Households
+         Name:      A10008
+         Variables:
+            A10008_001:   Households:
+            A10008_002:      Family Households:
+            A10008_003:         Married-Couple Family
+            A10008_004:         Other Family:
+            A10008_005:            Male Householder, No Wife Present
+            A10008_006:            Female Householder, No Husband Present
+            A10008_007:      Nonfamily Households:
+            A10008_008:         Male Householder
+            A10008_009:         Female Householder
+
+
+      8. Housing Units by Household Size
+         Universe:  Universe:  Occupied housing units
+         Name:      A10024
+         Variables:
+            A10024_001:   Occupied Housing Units:
+            A10024_002:      1-Person Household
+            A10024_003:      2-Person Household
+            A10024_004:      3-Person Household
+            A10024_005:      4-Person Household
+            A10024_006:      5-Person Household
+            A10024_007:      6-Person Household
+            A10024_008:      7-or-More Person Household
+
+
+      9. Average Household Size
+         Universe:  Occupied Households
+         Name:      A10003
+         Variables:
+            A10003_001:   Average Household Size
+
+
+      10. Marital Status for the Population 15 Years and Over
+          Universe:  Population 15 Years and Over
+          Name:      A11001
+          Variables:
+             A11001_001:   Population 15 Years and Over:
+             A11001_002:      Never Married
+             A11001_003:      Now Married (Not Including Separated)
+             A11001_004:      Separated
+             A11001_005:      Widowed
+             A11001_006:      Divorced
+
+
+      11. Unmarried-Partner Households by Sex of Partners
+          Universe:  Households
+          Name:      A11002
+          Variables:
+             A11002_001:   Households:
+             A11002_002:      Unmarried-Partner Households:
+             A11002_003:         Same Sex Partners:
+             A11002_004:            Male Householder and Male Partner
+             A11002_005:            Female Householder and Female Partner
+             A11002_006:         Opposite Sex Partners:
+             A11002_007:            Male Householder and Female Partner
+             A11002_008:            Female Householder and Male Partner
+             A11002_009:      All Other Households
+
+
+      12. Educational Attainment for Population 25 Years and Over
+          Universe:  Population 25 Years and Over
+          Name:      A12001
+          Variables:
+             A12001_001:   Population 25 Years and Over:
+             A12001_002:      Less than High School
+             A12001_003:      High School Graduate (Includes Equivalency)
+             A12001_004:      Some College
+             A12001_005:      Bachelor's Degree
+             A12001_006:      Master's Degree
+             A12001_007:      Professional School Degree
+             A12001_008:      Doctorate Degree
+
+
+      13. Housing Units by Educational Attainment of Householder
+          Universe:  Universe:  Occupied housing units
+          Name:      A10021
+          Variables:
+             A10021_001:   Occupied Housing Units:
+             A10021_002:      Less than High School Graduate
+             A10021_003:      High School Graduate (Including Equivalency)
+             A10021_004:      Some College or Associate's Degree
+             A10021_005:      Bachelor's Degree or Higher
+
+
+      14. Gini Index of Income Inequality
+          Universe:  Households
+          Name:      A14028
+          Variables:
+             A14028_001:   Gini Index
+
+
+      15. Veteran Status for the Civilian Population
+          Universe:  Civilian Population 18 Years and Over
+          Name:      A16002
+          Variables:
+             A16002_001:   Civilian Population 18 Years and Over:
+             A16002_002:      Veteran:
+             A16002_003:         18 to 64 Years
+             A16002_004:         65 Years and Over
+             A16002_005:      Nonveteran:
+             A16002_006:         18 to 64 Years
+             A16002_007:         65 Years and Over
+
+
+      16. Period of Military Service for Civilian Veterans 18 Years and Over
+          Universe:  Civilian veterans 18 Years and Over
+          Name:      A16001
+          Variables:
+             A16001_001:   Civilian Veterans 18 Years and Over:
+             A16001_002:      Gulf War 2001 or Later Only
+             A16001_003:      Gulf War 1990 to 2001 Only
+             A16001_004:      Vietnam Era Only
+             A16001_005:      Korean War Only
+             A16001_006:      World War II Only
+             A16001_007:      Served in Multiple Wars
+             A16001_008:      Other Service
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District 110
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      GEOID:          Geographic Identifier
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      AREALAND:       Area (Land)
+      AREAWATR:       Area (Water)
+      A00001_001:     Total Population
+      A00002_001:     Total Population
+      A00002_002:     Population Density (Per Sq. Mile)
+      A00002_003:     Area (Land)
+      A00003_001:     Area Total:
+      A00003_002:     Area Total: Area (Land)
+      A00003_003:     Area Total: Area (Water)
+      PCT_A00003_002: % Area Total: Area (Land)
+      PCT_A00003_003: % Area Total: Area (Water)
+      A02001_001:     Total Population:
+      A02001_002:     Total Population: Male
+      A02001_003:     Total Population: Female
+      PCT_A02001_002: % Total Population: Male
+      PCT_A02001_003: % Total Population: Female
+      B01001_001:     Total Population:
+      B01001_002:     Total Population: Under 18 Years
+      B01001_003:     Total Population: 18 to 34 Years
+      B01001_004:     Total Population: 35 to 64 Years
+      B01001_005:     Total Population: 65 and Over
+      PCT_B01001_002: % Total Population: Under 18 Years
+      PCT_B01001_003: % Total Population: 18 to 34 Years
+      PCT_B01001_004: % Total Population: 35 to 64 Years
+      PCT_B01001_005: % Total Population: 65 and Over
+      A03001_001:     Total Population:
+      A03001_002:     Total Population: White Alone
+      A03001_003:     Total Population: Black or African American Alone
+      A03001_004:     Total Population: American Indian and Alaska Native Alone
+      A03001_005:     Total Population: Asian Alone
+      A03001_006:     Total Population: Native Hawaiian and Other Pacific Islander Alone
+      A03001_007:     Total Population: Some Other Race Alone
+      A03001_008:     Total Population: Two or More Races
+      PCT_A03001_002: % Total Population: White Alone
+      PCT_A03001_003: % Total Population: Black or African American Alone
+      PCT_A03001_004: % Total Population: American Indian and Alaska Native Alone
+      PCT_A03001_005: % Total Population: Asian Alone
+      PCT_A03001_006: % Total Population: Native Hawaiian and Other Pacific Islander Alone
+      PCT_A03001_007: % Total Population: Some Other Race Alone
+      PCT_A03001_008: % Total Population: Two or More Races
+      A10008_001:     Households:
+      A10008_002:     Households: Family Households
+      A10008_003:     Households: Family Households: Married-Couple Family
+      A10008_004:     Households: Family Households: Other Family
+      A10008_005:     Households: Family Households: Other Family: Male Householder, No Wife Present
+      A10008_006:     Households: Family Households: Other Family: Female Householder, No Husband Present
+      A10008_007:     Households: Nonfamily Households
+      A10008_008:     Households: Nonfamily Households: Male Householder
+      A10008_009:     Households: Nonfamily Households: Female Householder
+      PCT_A10008_002: % Households: Family Households
+      PCT_A10008_003: % Households: Family Households: Married-Couple Family
+      PCT_A10008_004: % Households: Family Households: Other Family
+      PCT_A10008_005: % Households: Family Households: Other Family: Male Householder, No Wife Present
+      PCT_A10008_006: % Households: Family Households: Other Family: Female Householder, No Husband Present
+      PCT_A10008_007: % Households: Nonfamily Households
+      PCT_A10008_008: % Households: Nonfamily Households: Male Householder
+      PCT_A10008_009: % Households: Nonfamily Households: Female Householder
+      A10024_001:     Occupied Housing Units
+      A10024_002:     Occupied Housing Units: 1-Person Household
+      A10024_003:     Occupied Housing Units: 2-Person Household
+      A10024_004:     Occupied Housing Units: 3-Person Household
+      A10024_005:     Occupied Housing Units: 4-Person Household
+      A10024_006:     Occupied Housing Units: 5-Person Household
+      A10024_007:     Occupied Housing Units: 6-Person Household
+      A10024_008:     Occupied Housing Units: 7-or-More Person Household
+      PCT_A10024_002: % Occupied Housing Units: 1-Person Household
+      PCT_A10024_003: % Occupied Housing Units: 2-Person Household
+      PCT_A10024_004: % Occupied Housing Units: 3-Person Household
+      PCT_A10024_005: % Occupied Housing Units: 4-Person Household
+      PCT_A10024_006: % Occupied Housing Units: 5-Person Household
+      PCT_A10024_007: % Occupied Housing Units: 6-Person Household
+      PCT_A10024_008: % Occupied Housing Units: 7-or-More Person Household
+      A10003_001:     Average Household Size
+      A11001_001:     Population 15 Years and Over:
+      A11001_002:     Population 15 Years and Over: Never Married
+      A11001_003:     Population 15 Years and Over: Now Married (Not Including Separated)
+      A11001_004:     Population 15 Years and Over: Separated
+      A11001_005:     Population 15 Years and Over: Widowed
+      A11001_006:     Population 15 Years and Over: Divorced
+      PCT_A11001_002: % Population 15 Years and Over: Never Married
+      PCT_A11001_003: % Population 15 Years and Over: Now Married (Not Including Separated)
+      PCT_A11001_004: % Population 15 Years and Over: Separated
+      PCT_A11001_005: % Population 15 Years and Over: Widowed
+      PCT_A11001_006: % Population 15 Years and Over: Divorced
+      A11002_001:     Households:
+      A11002_002:     Households: Unmarried-Partner Households
+      A11002_003:     Households: Unmarried-Partner Households: Same Sex Partners
+      A11002_004:     Households: Unmarried-Partner Households: Same Sex Partners: Male Householder and Male Partner
+      A11002_005:     Households: Unmarried-Partner Households: Same Sex Partners: Female Householder and Female Partner
+      A11002_006:     Households: Unmarried-Partner Households: Opposite Sex Partners
+      A11002_007:     Households: Unmarried-Partner Households: Opposite Sex Partners: Male Householder and Female Partner
+      A11002_008:     Households: Unmarried-Partner Households: Opposite Sex Partners: Female Householder and Male Partner
+      A11002_009:     Households: All Other Households
+      PCT_A11002_002: % Households: Unmarried-Partner Households
+      PCT_A11002_003: % Households: Unmarried-Partner Households: Same Sex Partners
+      PCT_A11002_004: % Households: Unmarried-Partner Households: Same Sex Partners: Male Householder and Male Partner
+      PCT_A11002_005: % Households: Unmarried-Partner Households: Same Sex Partners: Female Householder and Female Partner
+      PCT_A11002_006: % Households: Unmarried-Partner Households: Opposite Sex Partners
+      PCT_A11002_007: % Households: Unmarried-Partner Households: Opposite Sex Partners: Male Householder and Female Partner
+      PCT_A11002_008: % Households: Unmarried-Partner Households: Opposite Sex Partners: Female Householder and Male Partner
+      PCT_A11002_009: % Households: All Other Households
+      A12001_001:     Population 25 Years and Over:
+      A12001_002:     Population 25 Years and Over: Less than High School
+      A12001_003:     Population 25 Years and Over: High School Graduate (Includes Equivalency)
+      A12001_004:     Population 25 Years and Over: Some College
+      A12001_005:     Population 25 Years and Over: Bachelor's Degree
+      A12001_006:     Population 25 Years and Over: Master's Degree
+      A12001_007:     Population 25 Years and Over: Professional School Degree
+      A12001_008:     Population 25 Years and Over: Doctorate Degree
+      PCT_A12001_002: % Population 25 Years and Over: Less than High School
+      PCT_A12001_003: % Population 25 Years and Over: High School Graduate (Includes Equivalency)
+      PCT_A12001_004: % Population 25 Years and Over: Some College
+      PCT_A12001_005: % Population 25 Years and Over: Bachelor's Degree
+      PCT_A12001_006: % Population 25 Years and Over: Master's Degree
+      PCT_A12001_007: % Population 25 Years and Over: Professional School Degree
+      PCT_A12001_008: % Population 25 Years and Over: Doctorate Degree
+      A10021_001:     Occupied Housing Units
+      A10021_002:     Occupied Housing Units: Less than High School Graduate
+      A10021_003:     Occupied Housing Units: High School Graduate (Including Equivalency)
+      A10021_004:     Occupied Housing Units: Some College or Associate's Degree
+      A10021_005:     Occupied Housing Units: Bachelor's Degree or Higher
+      PCT_A10021_002: % Occupied Housing Units: Less than High School Graduate
+      PCT_A10021_003: % Occupied Housing Units: High School Graduate (Including Equivalency)
+      PCT_A10021_004: % Occupied Housing Units: Some College or Associate's Degree
+      PCT_A10021_005: % Occupied Housing Units: Bachelor's Degree or Higher
+      A14028_001:     Gini Index
+      A16002_001:     Civilian Population 18 Years and Over:
+      A16002_002:     Civilian Population 18 Years and Over: Veteran
+      A16002_003:     Civilian Population 18 Years and Over: Veteran: 18 to 64 Years
+      A16002_004:     Civilian Population 18 Years and Over: Veteran: 65 Years and Over
+      A16002_005:     Civilian Population 18 Years and Over: Nonveteran
+      A16002_006:     Civilian Population 18 Years and Over: Nonveteran: 18 to 64 Years
+      A16002_007:     Civilian Population 18 Years and Over: Nonveteran: 65 Years and Over
+      PCT_A16002_002: % Civilian Population 18 Years and Over: Veteran
+      PCT_A16002_003: % Civilian Population 18 Years and Over: Veteran: 18 to 64 Years
+      PCT_A16002_004: % Civilian Population 18 Years and Over: Veteran: 65 Years and Over
+      PCT_A16002_005: % Civilian Population 18 Years and Over: Nonveteran
+      PCT_A16002_006: % Civilian Population 18 Years and Over: Nonveteran: 18 to 64 Years
+      PCT_A16002_007: % Civilian Population 18 Years and Over: Nonveteran: 65 Years and Over
+      A16001_001:     Civilian Veterans 18 Years and Over:
+      A16001_002:     Civilian Veterans 18 Years and Over: Gulf War 2001 or Later Only
+      A16001_003:     Civilian Veterans 18 Years and Over: Gulf War 1990 to 2001 Only
+      A16001_004:     Civilian Veterans 18 Years and Over: Vietnam Era Only
+      A16001_005:     Civilian Veterans 18 Years and Over: Korean War Only
+      A16001_006:     Civilian Veterans 18 Years and Over: World War II Only
+      A16001_007:     Civilian Veterans 18 Years and Over: Served in Multiple Wars
+      A16001_008:     Civilian Veterans 18 Years and Over: Other Service
+      PCT_A16001_002: % Civilian Veterans 18 Years and Over: Gulf War 2001 or Later Only
+      PCT_A16001_003: % Civilian Veterans 18 Years and Over: Gulf War 1990 to 2001 Only
+      PCT_A16001_004: % Civilian Veterans 18 Years and Over: Vietnam Era Only
+      PCT_A16001_005: % Civilian Veterans 18 Years and Over: Korean War Only
+      PCT_A16001_006: % Civilian Veterans 18 Years and Over: World War II Only
+      PCT_A16001_007: % Civilian Veterans 18 Years and Over: Served in Multiple Wars
+      PCT_A16001_008: % Civilian Veterans 18 Years and Over: Other Service
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2019
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12419321
+
+If you have any questions contact info@socialexplorer.com

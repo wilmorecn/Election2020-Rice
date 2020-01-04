@@ -1,0 +1,331 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12419228
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Citizen Voting Age Population Special Tabulation (ACS 2017-5 Year Estimates)
+Dataset:          Social Explorer Tables
+Tables:
+
+      1. Race
+         Universe:  Total Population
+         Name:      T1
+         Variables:
+            T001_001:   Total Population:
+            T001_002:      Not Hispanic or Latino:
+            T001_003:         White Alone
+            T001_004:         Black or African American Alone
+            T001_005:         American Indian or Alaska Native Alone
+            T001_006:         Asian Alone
+            T001_007:         Native Hawaiian or Other Pacific Islander Alone
+            T001_008:         Two or More Races**:
+            T001_009:            Black or African American and White
+            T001_010:            American Indian or Alaska Native and White
+            T001_011:            American Indian or Alaska Native and Black or African American
+            T001_012:            Asian and White
+            T001_013:            Remainder of Two or More Race Responses
+            T001_014:      Hispanic or Latino
+
+
+      2. Total Number of US Citizens by Race
+         Universe:  Total Number of United States Citizens
+         Name:      T2
+         Variables:
+            T002_001:   Total Number of US Citizens:
+            T002_002:      Not Hispanic or Latino:
+            T002_003:         White Alone
+            T002_004:         Black or African American Alone
+            T002_005:         American Indian or Alaska Native Alone
+            T002_006:         Asian Alone
+            T002_007:         Native Hawaiian or Other Pacific Islander Alone
+            T002_008:         Two or More Races**:
+            T002_009:            Black or African American and White
+            T002_010:            American Indian or Alaska Native and White
+            T002_011:            American Indian or Alaska Native and Black or African American
+            T002_012:            Asian and White
+            T002_013:            Remainder of Two or More Race Responses
+            T002_014:      Hispanic or Latino
+
+
+      3. People 18 Years of Age or Older by Race
+         Universe:  People 18 Years of Age or Older
+         Name:      T3
+         Variables:
+            T003_001:   Population 18 Years and Over:
+            T003_002:      Not Hispanic or Latino:
+            T003_003:         White Alone
+            T003_004:         Black or African American Alone
+            T003_005:         American Indian or Alaska Native Alone
+            T003_006:         Asian Alone
+            T003_007:         Native Hawaiian or Other Pacific Islander Alone
+            T003_008:         Two or More Races**:
+            T003_009:            Black or African American and White
+            T003_010:            American Indian or Alaska Native and White
+            T003_011:            American Indian or Alaska Native and Black or African American
+            T003_012:            Asian and White
+            T003_013:            Remainder of Two or More Race Responses
+            T003_014:      Hispanic or Latino
+
+
+      4. US Citizens 18 Years of Age or Older by Race
+         Universe:  US Citizens 18 Years of Age or Older
+         Name:      T4
+         Variables:
+            T004_001:   US Citizens 18 Years and Over:
+            T004_002:      Not Hispanic or Latino:
+            T004_003:         White Alone
+            T004_004:         Black or African American Alone
+            T004_005:         American Indian or Alaska Native Alone
+            T004_006:         Asian Alone
+            T004_007:         Native Hawaiian or Other Pacific Islander Alone
+            T004_008:         Two or More Races**:
+            T004_009:            Black or African American and White
+            T004_010:            American Indian or Alaska Native and White
+            T004_011:            American Indian or Alaska Native and Black or African American
+            T004_012:            Asian and White
+            T004_013:            Remainder of Two or More Race Responses
+            T004_014:      Hispanic or Latino
+
+
+      5. Citizenship Status
+         Universe:  
+         Name:      T5
+         Variables:
+            T005_001:   Total Population:
+            T005_002:      Citizens
+            T005_003:      Non-Citizens
+
+
+      6. Number of Total Seats in the State
+         Universe:  
+         Name:      T6
+         Variables:
+            T006_001:   Number of Total Seats in the State
+
+
+      7. District Size Deviation if Total Population is the Base
+         Universe:  
+         Name:      T7
+         Variables:
+            T007_001:   Total Population:
+            T007_002:      Average District Size
+            T007_003:      Deviation from Average District Size
+
+
+      8. District Size Deviation if Citizenship is the Base
+         Universe:  
+         Name:      T8
+         Variables:
+            T008_001:   Total Citizens:
+            T008_002:      Average District Size
+            T008_003:      Deviation from Average District Size
+
+
+      9. District Size Deviation if CVAP is the Base
+         Universe:  
+         Name:      T9
+         Variables:
+            T009_001:   Total Citizens of Voting Age:
+            T009_002:      Average District Size
+            T009_003:      Deviation from Average District Size
+
+
+      10. Citizens of Voting Age
+          Universe:  
+          Name:      T10
+          Variables:
+             T010_001:   Total Population:
+             T010_002:      Total Citizens of Voting Age
+             T010_003:      Non-Citizens and those under 18
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      QNAME:          Qualifying Name
+      NAME:           Name of Area
+      FIPS:           FIPS
+      NATION:         Nation
+      STATE:          State
+      COUNTY:         County
+      CS:             County Subdivision
+      CT:             Census Tract
+      BG:             Block Group
+      PLACE:          Place
+      CD:             Congressional District
+      SLDUC:          State Legislative District (Upper Chamber)
+      SLDLC:          State Legislative District (Lower Chamber)
+      T001_001:       Total Population
+      T001_002:       Total Population: Not Hispanic or Latino
+      T001_003:       Total Population: Not Hispanic or Latino: White Alone
+      T001_004:       Total Population: Not Hispanic or Latino: Black or African American Alone
+      T001_005:       Total Population: Not Hispanic or Latino: American Indian or Alaska Native Alone
+      T001_006:       Total Population: Not Hispanic or Latino: Asian Alone
+      T001_007:       Total Population: Not Hispanic or Latino: Native Hawaiian or Other Pacific Islander Alone
+      T001_008:       Total Population: Not Hispanic or Latino: Two or More Races**
+      T001_009:       Total Population: Not Hispanic or Latino: Two or More Races**: Black or African American and White
+      T001_010:       Total Population: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and White
+      T001_011:       Total Population: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and Black or African American
+      T001_012:       Total Population: Not Hispanic or Latino: Two or More Races**: Asian and White
+      T001_013:       Total Population: Not Hispanic or Latino: Two or More Races**: Remainder of Two or More Race Responses
+      T001_014:       Total Population: Hispanic or Latino
+      PCT_T001_002:   % Total Population: Not Hispanic or Latino
+      PCT_T001_003:   % Total Population: Not Hispanic or Latino: White Alone
+      PCT_T001_004:   % Total Population: Not Hispanic or Latino: Black or African American Alone
+      PCT_T001_005:   % Total Population: Not Hispanic or Latino: American Indian or Alaska Native Alone
+      PCT_T001_006:   % Total Population: Not Hispanic or Latino: Asian Alone
+      PCT_T001_007:   % Total Population: Not Hispanic or Latino: Native Hawaiian or Other Pacific Islander Alone
+      PCT_T001_008:   % Total Population: Not Hispanic or Latino: Two or More Races**
+      PCT_T001_009:   % Total Population: Not Hispanic or Latino: Two or More Races**: Black or African American and White
+      PCT_T001_010:   % Total Population: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and White
+      PCT_T001_011:   % Total Population: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and Black or African American
+      PCT_T001_012:   % Total Population: Not Hispanic or Latino: Two or More Races**: Asian and White
+      PCT_T001_013:   % Total Population: Not Hispanic or Latino: Two or More Races**: Remainder of Two or More Race Responses
+      PCT_T001_014:   % Total Population: Hispanic or Latino
+      T002_001:       Total Number of United States Citizens
+      T002_002:       Total Number of United States Citizens: Not Hispanic or Latino
+      T002_003:       Total Number of United States Citizens: Not Hispanic or Latino: White Alone
+      T002_004:       Total Number of United States Citizens: Not Hispanic or Latino: Black or African American Alone
+      T002_005:       Total Number of United States Citizens: Not Hispanic or Latino: American Indian or Alaska Native Alone
+      T002_006:       Total Number of United States Citizens: Not Hispanic or Latino: Asian Alone
+      T002_007:       Total Number of United States Citizens: Not Hispanic or Latino: Native Hawaiian or Other Pacific Islander Alone
+      T002_008:       Total Number of United States Citizens: Not Hispanic or Latino: Two or More Races**
+      T002_009:       Total Number of United States Citizens: Not Hispanic or Latino: Two or More Races**: Black or African American and White
+      T002_010:       Total Number of United States Citizens: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and White
+      T002_011:       Total Number of United States Citizens: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and Black or African American
+      T002_012:       Total Number of United States Citizens: Not Hispanic or Latino: Two or More Races**: Asian and White
+      T002_013:       Total Number of United States Citizens: Not Hispanic or Latino: Two or More Races**: Remainder of Two or More Race Responses
+      T002_014:       Total Number of United States Citizens: Hispanic or Latino
+      PCT_T002_002:   % Total Number of United States Citizens: Not Hispanic or Latino
+      PCT_T002_003:   % Total Number of United States Citizens: Not Hispanic or Latino: White Alone
+      PCT_T002_004:   % Total Number of United States Citizens: Not Hispanic or Latino: Black or African American Alone
+      PCT_T002_005:   % Total Number of United States Citizens: Not Hispanic or Latino: American Indian or Alaska Native Alone
+      PCT_T002_006:   % Total Number of United States Citizens: Not Hispanic or Latino: Asian Alone
+      PCT_T002_007:   % Total Number of United States Citizens: Not Hispanic or Latino: Native Hawaiian or Other Pacific Islander Alone
+      PCT_T002_008:   % Total Number of United States Citizens: Not Hispanic or Latino: Two or More Races**
+      PCT_T002_009:   % Total Number of United States Citizens: Not Hispanic or Latino: Two or More Races**: Black or African American and White
+      PCT_T002_010:   % Total Number of United States Citizens: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and White
+      PCT_T002_011:   % Total Number of United States Citizens: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and Black or African American
+      PCT_T002_012:   % Total Number of United States Citizens: Not Hispanic or Latino: Two or More Races**: Asian and White
+      PCT_T002_013:   % Total Number of United States Citizens: Not Hispanic or Latino: Two or More Races**: Remainder of Two or More Race Responses
+      PCT_T002_014:   % Total Number of United States Citizens: Hispanic or Latino
+      T003_001:       Population 18 Years and Over
+      T003_002:       Population 18 Years and Over: Not Hispanic or Latino
+      T003_003:       Population 18 Years and Over: Not Hispanic or Latino: White Alone
+      T003_004:       Population 18 Years and Over: Not Hispanic or Latino: Black or African American Alone
+      T003_005:       Population 18 Years and Over: Not Hispanic or Latino: American Indian or Alaska Native Alone
+      T003_006:       Population 18 Years and Over: Not Hispanic or Latino: Asian Alone
+      T003_007:       Population 18 Years and Over: Not Hispanic or Latino: Native Hawaiian or Other Pacific Islander Alone
+      T003_008:       Population 18 Years and Over: Not Hispanic or Latino: Two or More Races**
+      T003_009:       Population 18 Years and Over: Not Hispanic or Latino: Two or More Races**: Black or African American and White
+      T003_010:       Population 18 Years and Over: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and White
+      T003_011:       Population 18 Years and Over: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and Black or African American
+      T003_012:       Population 18 Years and Over: Not Hispanic or Latino: Two or More Races**: Asian and White
+      T003_013:       Population 18 Years and Over: Not Hispanic or Latino: Two or More Races**: Remainder of Two or More Race Responses
+      T003_014:       Population 18 Years and Over: Hispanic or Latino
+      PCT_T003_002:   % Population 18 Years and Over: Not Hispanic or Latino
+      PCT_T003_003:   % Population 18 Years and Over: Not Hispanic or Latino: White Alone
+      PCT_T003_004:   % Population 18 Years and Over: Not Hispanic or Latino: Black or African American Alone
+      PCT_T003_005:   % Population 18 Years and Over: Not Hispanic or Latino: American Indian or Alaska Native Alone
+      PCT_T003_006:   % Population 18 Years and Over: Not Hispanic or Latino: Asian Alone
+      PCT_T003_007:   % Population 18 Years and Over: Not Hispanic or Latino: Native Hawaiian or Other Pacific Islander Alone
+      PCT_T003_008:   % Population 18 Years and Over: Not Hispanic or Latino: Two or More Races**
+      PCT_T003_009:   % Population 18 Years and Over: Not Hispanic or Latino: Two or More Races**: Black or African American and White
+      PCT_T003_010:   % Population 18 Years and Over: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and White
+      PCT_T003_011:   % Population 18 Years and Over: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and Black or African American
+      PCT_T003_012:   % Population 18 Years and Over: Not Hispanic or Latino: Two or More Races**: Asian and White
+      PCT_T003_013:   % Population 18 Years and Over: Not Hispanic or Latino: Two or More Races**: Remainder of Two or More Race Responses
+      PCT_T003_014:   % Population 18 Years and Over: Hispanic or Latino
+      T004_001:       US Citizens 18 Years and Over
+      T004_002:       US Citizens 18 Years and Over: Not Hispanic or Latino
+      T004_003:       US Citizens 18 Years and Over: Not Hispanic or Latino: White Alone
+      T004_004:       US Citizens 18 Years and Over: Not Hispanic or Latino: Black or African American Alone
+      T004_005:       US Citizens 18 Years and Over: Not Hispanic or Latino: American Indian or Alaska Native Alone
+      T004_006:       US Citizens 18 Years and Over: Not Hispanic or Latino: Asian Alone
+      T004_007:       US Citizens 18 Years and Over: Not Hispanic or Latino: Native Hawaiian or Other Pacific Islander Alone
+      T004_008:       US Citizens 18 Years and Over: Not Hispanic or Latino: Two or More Races**
+      T004_009:       US Citizens 18 Years and Over: Not Hispanic or Latino: Two or More Races**: Black or African American and White
+      T004_010:       US Citizens 18 Years and Over: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and White
+      T004_011:       US Citizens 18 Years and Over: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and Black or African American
+      T004_012:       US Citizens 18 Years and Over: Not Hispanic or Latino: Two or More Races**: Asian and White
+      T004_013:       US Citizens 18 Years and Over: Not Hispanic or Latino: Two or More Races**: Remainder of Two or More Race Responses
+      T004_014:       US Citizens 18 Years and Over: Hispanic or Latino
+      PCT_T004_002:   % US Citizens 18 Years and Over: Not Hispanic or Latino
+      PCT_T004_003:   % US Citizens 18 Years and Over: Not Hispanic or Latino: White Alone
+      PCT_T004_004:   % US Citizens 18 Years and Over: Not Hispanic or Latino: Black or African American Alone
+      PCT_T004_005:   % US Citizens 18 Years and Over: Not Hispanic or Latino: American Indian or Alaska Native Alone
+      PCT_T004_006:   % US Citizens 18 Years and Over: Not Hispanic or Latino: Asian Alone
+      PCT_T004_007:   % US Citizens 18 Years and Over: Not Hispanic or Latino: Native Hawaiian or Other Pacific Islander Alone
+      PCT_T004_008:   % US Citizens 18 Years and Over: Not Hispanic or Latino: Two or More Races**
+      PCT_T004_009:   % US Citizens 18 Years and Over: Not Hispanic or Latino: Two or More Races**: Black or African American and White
+      PCT_T004_010:   % US Citizens 18 Years and Over: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and White
+      PCT_T004_011:   % US Citizens 18 Years and Over: Not Hispanic or Latino: Two or More Races**: American Indian or Alaska Native and Black or African American
+      PCT_T004_012:   % US Citizens 18 Years and Over: Not Hispanic or Latino: Two or More Races**: Asian and White
+      PCT_T004_013:   % US Citizens 18 Years and Over: Not Hispanic or Latino: Two or More Races**: Remainder of Two or More Race Responses
+      PCT_T004_014:   % US Citizens 18 Years and Over: Hispanic or Latino
+      T005_001:       Total Population
+      T005_002:       Total Population: Citizens
+      T005_003:       Total Population: Non-Citizens
+      PCT_T005_002:   % Total Population: Citizens
+      PCT_T005_003:   % Total Population: Non-Citizens
+      T006_001:       Number of Total Seats in the State
+      T007_001:       Total Population
+      T007_002:       Total Population: Average District Size
+      T007_003:       Total Population: Deviation from Average District Size
+      PCT_T007_002:   % Total Population: Average District Size
+      PCT_T007_003:   % Total Population: Deviation from Average District Size
+      T008_001:       Total Citizens
+      T008_002:       Total Citizens: Average District Size
+      T008_003:       Total Citizens: Deviation from Average District Size
+      PCT_T008_002:   % Total Citizens: Average District Size
+      PCT_T008_003:   % Total Citizens: Deviation from Average District Size
+      T009_001:       Total Citizens of Voting Age
+      T009_002:       Total Citizens of Voting Age: Average District Size
+      T009_003:       Total Citizens of Voting Age: Deviation from Average District Size
+      PCT_T009_002:   % Total Citizens of Voting Age: Average District Size
+      PCT_T009_003:   % Total Citizens of Voting Age: Deviation from Average District Size
+      T010_001:       Total Population
+      T010_002:       Total Population: Total Citizens of Voting Age
+      T010_003:       Total Population: Non-Citizens and those under 18
+      PCT_T010_002:   % Total Population: Total Citizens of Voting Age
+      PCT_T010_003:   % Total Population: Non-Citizens and those under 18
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2019
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12419228
+
+If you have any questions contact info@socialexplorer.com
