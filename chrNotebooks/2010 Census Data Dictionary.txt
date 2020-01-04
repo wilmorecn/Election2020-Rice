@@ -1,0 +1,494 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12419216
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 2010
+Dataset:          Social Explorer Tables
+Tables:
+
+      1. Total Population
+         Universe:  Total population
+         Name:      T1
+         Variables:
+            T001_001:   Total Population
+
+
+      2. Population Density (per sq. mile)
+         Universe:  Total population
+         Name:      T2
+         Variables:
+            T002_001:   Total Population
+            T002_002:   Population Density (per sq. mile)
+            T002_006:   Area (Land)
+
+
+      3. Land Area (sq. miles)
+         Universe:  Area Total
+         Name:      T2A
+         Variables:
+            T02A_001:   Area Total:
+            T02A_002:      Area (Land)
+            T02A_003:      Area (Water)
+
+
+      4. Sex
+         Universe:  Total population
+         Name:      T3
+         Variables:
+            T003_001:   Total Population:
+            T003_002:      Male
+            T003_003:      Female
+
+
+      5. Sex By Age (Short Version)
+         Universe:  Total population
+         Name:      T7
+         Variables:
+            T007_001:   Total Population:
+            T007_002:      Male:
+            T007_003:         Under 18 years
+            T007_004:         18 to 34 years
+            T007_005:         35 to 64 years
+            T007_006:         65 and over
+            T007_007:      Female:
+            T007_008:         Under 18 years
+            T007_009:         18 and 34 years
+            T007_010:         35 to 64 years
+            T007_011:         65 and over
+
+
+      6. Age (Short Version)
+         Universe:  Total population
+         Name:      T11
+         Variables:
+            T011_001:   Total Population:
+            T011_002:      Under 18 years
+            T011_003:      18 to 34 years
+            T011_004:      35 to 64 years
+            T011_005:      65 and over
+
+
+      7. Race
+         Universe:  Total population
+         Name:      T54
+         Variables:
+            T054_001:   Total population:
+            T054_002:      White alone
+            T054_003:      Black or African American alone
+            T054_004:      American Indian and Alaska Native alone
+            T054_005:      Asian alone
+            T054_006:      Native Hawaiian and Other Pacific Islander alone
+            T054_007:      Some Other Race alone
+            T054_008:      Two or More Races
+
+
+      8. Households By Household Type
+         Universe:  Households
+         Name:      T58
+         Variables:
+            T058_001:   Households:
+            T058_002:      Family households:
+            T058_003:         Married-couple family
+            T058_004:         Other family:
+            T058_005:            Male householder, no wife present
+            T058_006:            Female householder, no husband present
+            T058_007:      Nonfamily households:
+            T058_008:         Householder living alone
+            T058_009:         Householder not living alone
+
+
+      9. Households By Race of Householder
+         Universe:  Households
+         Name:      T60
+         Variables:
+            T060_001:   Households:
+            T060_002:      with a householder who is White Alone
+            T060_003:      with a householder who is Black or African American Alone
+            T060_004:      with a householder who is American Indian and Alaska Native Alone
+            T060_005:      with a householder who is Asian Alone
+            T060_006:      with a householder who is Native Hawaiian and Other Pacific Islander Alone
+            T060_007:      with a householder who is Some other race Alone
+            T060_008:      with a householder who is two or more races
+
+
+      10. Population in Households By Household Type and Relationship
+          Universe:  Total population
+          Name:      T63
+          Variables:
+             T063_001:   Total population:
+             T063_002:      In households:
+             T063_003:         In family households:
+             T063_004:            Householder
+             T063_005:            Spouse
+             T063_006:            Child
+             T063_007:            Grandchild
+             T063_008:            Brother or sister
+             T063_009:            Parent
+             T063_010:            Other relatives
+             T063_011:            Nonrelatives
+             T063_012:         In nonfamily households:
+             T063_013:            Living alone
+             T063_014:            Not living alone
+             T063_015:            Nonrelatives
+             T063_016:      In group quarters:
+             T063_017:         Institutionalized population
+             T063_018:         Noninstitutionalized population
+
+
+      11. Average Household Size By Age
+          Universe:  Households
+          Name:      T64
+          Variables:
+             T064_001:   Average household size
+
+
+      12. Unmarried-Partner Households By Sex Of Partners
+          Universe:  Households
+          Name:      T65
+          Variables:
+             T065_001:   Households:
+             T065_002:      Unmarried-partner households:
+             T065_003:         Same Sex Partners:
+             T065_004:            Male householder and male partner
+             T065_005:            Female householder and female partner
+             T065_006:         Opposite Sex Partners:
+             T065_007:            Male householder and female partner
+             T065_008:            Female householder and male partner
+             T065_009:      All other households
+
+
+      13. Housing Units
+          Universe:  Housing units
+          Name:      T68
+          Variables:
+             T068_001:   Housing units
+
+
+      14. Tenure
+          Universe:  Occupied housing units
+          Name:      T69
+          Variables:
+             T069_001:   Occupied housing units:
+             T069_002:      Owner Occupied
+             T069_003:      Renter occupied
+
+
+      15. Occupancy Status
+          Universe:  Housing units
+          Name:      T70
+          Variables:
+             T070_001:   Housing units:
+             T070_002:      Occupied
+             T070_003:      Vacant
+
+
+      16. Nonfamily Households
+          Universe:  Nonfamily Households
+          Name:      T72
+          Variables:
+             T072_001:   Nonfamily households
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Area Name-Legal/Statistical Area Description
+      QName:          Qualifying Name
+      FILEID:         File Identification
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      CHARITER:       Characteristic Iteration
+      CIFSN:          Characteristic Iteration File Sequence Number
+      LOGRECNO:       Logical Record Number
+      REGION:         Region
+      DIVISION:       Division
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUNTYCC:       FIPS County Class Code
+      COUNTYSC:       County Size Code
+      COUSUB:         County Subdivision (FIPS)
+      COUSUBCC:       FIPS County Subdivision Class Code
+      COUSUBSC:       County Subdivision Size Code
+      PLACE:          Place (FIPS)
+      PLACECC:        FIPS Place Class Code
+      PLACESC:        Place Size Code
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      BLOCK:          Block
+      IUC:            Internal Use Code
+      CONCIT:         Consolidated City (FIPS)
+      CONCITCC:       FIPS Consolidated City Class Code
+      CONCITSC:       Consolidated City Size Code
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIANHHCC:       FIPS American Indian Area/Alaska Native Area/Hawaiian Home Land Class Code
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      AITSCC:         FIPS American Indian Tribal Subdivision Class Code
+      TTRACT:         Tribal Census Tract
+      TBLKGRP:        Tribal Block Group
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      ANRCCC:         FIPS Alaska Native Regional Corporation Class Code
+      CBSA:           Metropolitan Statistical Area/Micropolitan Statistical Area
+      CBSASC:         Metropolitan Statistical Area/Micropolitan Statistical Area Size Code
+      METDIV:         Metropolitan Division
+      CSA:            Combined Statistical Area
+      NECTA:          New England City and Town Area
+      NECTASC:        New England City and Town Area Size Code
+      NECTADIV:       New England City and Town Area Division
+      CNECTA:         Combined New England City and Town Area
+      CBSAPCI:        Metropolitan Statistical Area/Micropolitan Statistical Area Principal City Indicator
+      NECTAPCI:       New England City and Town Area Principal City Indicator
+      UA:             Urban Area
+      UASC:           Urban Area Size Code
+      UATYPE:         Urban Area Type
+      UR:             Urban/Rural
+      CD:             CD
+      SLDU:           State Legislative District (Upper Chamber)
+      SLDL:           State Legislative District (Lower Chamber)
+      VTD:            Voting District
+      VTDI:           Voting District Indicator
+      RESERVE2:       Reserved
+      ZCTA5:          ZIP Code Tabulation Area (5 digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SUBMCDCC:       FIPS Subbarrio Class Code
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      AREALAND:       Area (Land)
+      AREAWATR:       Area (Water)
+      FUNCSTAT:       Functional Status Code
+      GCUNI:          Geographic Change User Note Indicator
+      POP100:         Population Count (100%)
+      HU100:          Housing Unit Count (100%)
+      INTPTLAT:       Internal Point (Latitude)
+      INTPTLON:       Internal Point (Longitude)
+      LSADC:          Legal/Statistical Area Description Code
+      PARTFLAG:       Part Flag
+      RESERVE3:       Reserved
+      UGA:            Oregon Urban Growth Area
+      STATENS:        State (ANSI)
+      COUNTYNS:       County (ANSI)
+      COUSUBNS:       County Subdivision (ANSI)
+      PLACENS:        Place (ANSI)
+      CONCITNS:       Consolidated City (ANSI)
+      AIANHHNS:       American Indian Area/Alaska Native Area/Hawaiian Home Land (ANSI)
+      AITSNS:         American Indian Tribal Subdivision (ANSI)
+      ANRCNS:         Alaska Native Regional Corporation (ANSI)
+      SUBMCDNS:       Subminor Civil Division (ANSI)
+      CD113:          Congressional District (113th)
+      CD114:          Congressional District (114th)
+      CD115:          Congressional District (115th)
+      SLDU2:          State Legislative District (Upper Chamber) (Year 2)
+      SLDU3:          State Legislative District (Upper Chamber) (Year 3)
+      SLDU4:          State Legislative District (Upper Chamber) (Year 4)
+      SLDL2:          State Legislative District (Lower Chamber) (Year 2)
+      SLDL3:          State Legislative District (Lower Chamber) (Year 3)
+      SLDL4:          State Legislative District (Lower Chamber) (Year 4)
+      AIANHHSC:       American Indian Area/Alaska Native Area/Hawaiian Home Land Size Code
+      CSASC:          Combined Statistical Area Size Code
+      CNECTASC:       Combined NECTA Size Code
+      MEMI:           Metropolitan/Micropolitan Indicator
+      NMEMI:          NECTA Metropolitan/Micropolitan Indicator
+      PUMA:           Public Use Microdata Area
+      RESERVED:       Reserved
+      T001_001:       Total Population
+      T002_001:       Total Population
+      T002_002:       Population Density (per sq. mile)
+      T002_006:       Area (Land)
+      T02A_001:       Area Total
+      T02A_002:       Area Total: Area (Land)
+      T02A_003:       Area Total: Area (Water)
+      PCT_T02A_002:   % Area Total: Area (Land)
+      PCT_T02A_003:   % Area Total: Area (Water)
+      T003_001:       Total Population
+      T003_002:       Total Population: Male
+      T003_003:       Total Population: Female
+      PCT_T003_002:   % Total Population: Male
+      PCT_T003_003:   % Total Population: Female
+      T007_001:       Total Population
+      T007_002:       Total Population: Male
+      T007_003:       Total Population: Male: Under 18 years
+      T007_004:       Total Population: Male: 18 to 34 years
+      T007_005:       Total Population: Male: 35 to 64 years
+      T007_006:       Total Population: Male: 65 and over
+      T007_007:       Total Population: Female
+      T007_008:       Total Population: Female: Under 18 years
+      T007_009:       Total Population: Female: 18 and 34 years
+      T007_010:       Total Population: Female: 35 to 64 years
+      T007_011:       Total Population: Female: 65 and over
+      PCT_T007_002:   % Total Population: Male
+      PCT_T007_003:   % Total Population: Male: Under 18 years
+      PCT_T007_004:   % Total Population: Male: 18 to 34 years
+      PCT_T007_005:   % Total Population: Male: 35 to 64 years
+      PCT_T007_006:   % Total Population: Male: 65 and over
+      PCT_T007_007:   % Total Population: Female
+      PCT_T007_008:   % Total Population: Female: Under 18 years
+      PCT_T007_009:   % Total Population: Female: 18 and 34 years
+      PCT_T007_010:   % Total Population: Female: 35 to 64 years
+      PCT_T007_011:   % Total Population: Female: 65 and over
+      T011_001:       Total Population
+      T011_002:       Total Population: Under 18 years
+      T011_003:       Total Population: 18 to 34 years
+      T011_004:       Total Population: 35 to 64 years
+      T011_005:       Total Population: 65 and over
+      PCT_T011_002:   % Total Population: Under 18 years
+      PCT_T011_003:   % Total Population: 18 to 34 years
+      PCT_T011_004:   % Total Population: 35 to 64 years
+      PCT_T011_005:   % Total Population: 65 and over
+      T054_001:       Total population
+      T054_002:       Total population: White alone
+      T054_003:       Total population: Black or African American alone
+      T054_004:       Total population: American Indian and Alaska Native alone
+      T054_005:       Total population: Asian alone
+      T054_006:       Total population: Native Hawaiian and Other Pacific Islander alone
+      T054_007:       Total population: Some Other Race alone
+      T054_008:       Total population: Two or More Races
+      PCT_T054_002:   % Total population: White alone
+      PCT_T054_003:   % Total population: Black or African American alone
+      PCT_T054_004:   % Total population: American Indian and Alaska Native alone
+      PCT_T054_005:   % Total population: Asian alone
+      PCT_T054_006:   % Total population: Native Hawaiian and Other Pacific Islander alone
+      PCT_T054_007:   % Total population: Some Other Race alone
+      PCT_T054_008:   % Total population: Two or More Races
+      T058_001:       Households
+      T058_002:       Households: Family households
+      T058_003:       Households: Family households: Married-couple family
+      T058_004:       Households: Family households: Other family
+      T058_005:       Households: Family households: Other family: Male householder, no wife present
+      T058_006:       Households: Family households: Other family: Female householder, no husband present
+      T058_007:       Households: Nonfamily households
+      T058_008:       Households: Nonfamily households: Householder living alone
+      T058_009:       Households: Nonfamily households: Householder not living alone
+      PCT_T058_002:   % Households: Family households
+      PCT_T058_003:   % Households: Family households: Married-couple family
+      PCT_T058_004:   % Households: Family households: Other family
+      PCT_T058_005:   % Households: Family households: Other family: Male householder, no wife present
+      PCT_T058_006:   % Households: Family households: Other family: Female householder, no husband present
+      PCT_T058_007:   % Households: Nonfamily households
+      PCT_T058_008:   % Households: Nonfamily households: Householder living alone
+      PCT_T058_009:   % Households: Nonfamily households: Householder not living alone
+      T060_001:       Households
+      T060_002:       Households: with a householder who is White Alone
+      T060_003:       Households: with a householder who is Black or African American Alone
+      T060_004:       Households: with a householder who is American Indian and Alaska Native Alone
+      T060_005:       Households: with a householder who is Asian Alone
+      T060_006:       Households: with a householder who is Native Hawaiian and Other Pacific Islander Alone
+      T060_007:       Households: with a householder who is Some other race Alone
+      T060_008:       Households: with a householder who is two or more races
+      PCT_T060_002:   % Households: with a householder who is White Alone
+      PCT_T060_003:   % Households: with a householder who is Black or African American Alone
+      PCT_T060_004:   % Households: with a householder who is American Indian and Alaska Native Alone
+      PCT_T060_005:   % Households: with a householder who is Asian Alone
+      PCT_T060_006:   % Households: with a householder who is Native Hawaiian and Other Pacific Islander Alone
+      PCT_T060_007:   % Households: with a householder who is Some other race Alone
+      PCT_T060_008:   % Households: with a householder who is two or more races
+      T063_001:       Total population
+      T063_002:       Total population: In households
+      T063_003:       Total population: In households: In family households
+      T063_004:       Total population: In households: In family households: Householder
+      T063_005:       Total population: In households: In family households: Spouse
+      T063_006:       Total population: In households: In family households: Child
+      T063_007:       Total population: In households: In family households: Grandchild
+      T063_008:       Total population: In households: In family households: Brother or sister
+      T063_009:       Total population: In households: In family households: Parent
+      T063_010:       Total population: In households: In family households: Other relatives
+      T063_011:       Total population: In households: In family households: Nonrelatives
+      T063_012:       Total population: In households: In nonfamily households
+      T063_013:       Total population: In households: In nonfamily households: Living alone
+      T063_014:       Total population: In households: In nonfamily households: Not living alone
+      T063_015:       Total population: In households: In nonfamily households: Nonrelatives
+      T063_016:       Total population: In group quarters
+      T063_017:       Total population: In group quarters: Institutionalized population
+      T063_018:       Total population: In group quarters: Noninstitutionalized population
+      PCT_T063_002:   % Total population: In households
+      PCT_T063_003:   % Total population: In households: In family households
+      PCT_T063_004:   % Total population: In households: In family households: Householder
+      PCT_T063_005:   % Total population: In households: In family households: Spouse
+      PCT_T063_006:   % Total population: In households: In family households: Child
+      PCT_T063_007:   % Total population: In households: In family households: Grandchild
+      PCT_T063_008:   % Total population: In households: In family households: Brother or sister
+      PCT_T063_009:   % Total population: In households: In family households: Parent
+      PCT_T063_010:   % Total population: In households: In family households: Other relatives
+      PCT_T063_011:   % Total population: In households: In family households: Nonrelatives
+      PCT_T063_012:   % Total population: In households: In nonfamily households
+      PCT_T063_013:   % Total population: In households: In nonfamily households: Living alone
+      PCT_T063_014:   % Total population: In households: In nonfamily households: Not living alone
+      PCT_T063_015:   % Total population: In households: In nonfamily households: Nonrelatives
+      PCT_T063_016:   % Total population: In group quarters
+      PCT_T063_017:   % Total population: In group quarters: Institutionalized population
+      PCT_T063_018:   % Total population: In group quarters: Noninstitutionalized population
+      T064_001:       Average household size
+      T065_001:       Households
+      T065_002:       Households: Unmarried-partner households
+      T065_003:       Households: Unmarried-partner households: Same Sex Partners
+      T065_004:       Households: Unmarried-partner households: Same Sex Partners: Male householder and male partner
+      T065_005:       Households: Unmarried-partner households: Same Sex Partners: Female householder and female partner
+      T065_006:       Households: Unmarried-partner households: Opposite Sex Partners
+      T065_007:       Households: Unmarried-partner households: Opposite Sex Partners: Male householder and female partner
+      T065_008:       Households: Unmarried-partner households: Opposite Sex Partners: Female householder and male partner
+      T065_009:       Households: All other households
+      PCT_T065_002:   % Households: Unmarried-partner households
+      PCT_T065_003:   % Households: Unmarried-partner households: Same Sex Partners
+      PCT_T065_004:   % Households: Unmarried-partner households: Same Sex Partners: Male householder and male partner
+      PCT_T065_005:   % Households: Unmarried-partner households: Same Sex Partners: Female householder and female partner
+      PCT_T065_006:   % Households: Unmarried-partner households: Opposite Sex Partners
+      PCT_T065_007:   % Households: Unmarried-partner households: Opposite Sex Partners: Male householder and female partner
+      PCT_T065_008:   % Households: Unmarried-partner households: Opposite Sex Partners: Female householder and male partner
+      PCT_T065_009:   % Households: All other households
+      T068_001:       Housing units
+      T069_001:       Occupied housing units
+      T069_002:       Occupied housing units: Owner Occupied
+      T069_003:       Occupied housing units: Renter occupied
+      PCT_T069_002:   % Occupied housing units: Owner Occupied
+      PCT_T069_003:   % Occupied housing units: Renter occupied
+      T070_001:       Housing units
+      T070_002:       Housing units: Occupied
+      T070_003:       Housing units: Vacant
+      PCT_T070_002:   % Housing units: Occupied
+      PCT_T070_003:   % Housing units: Vacant
+      T072_001:       Nonfamily households
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2019
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12419216
+
+If you have any questions contact info@socialexplorer.com
