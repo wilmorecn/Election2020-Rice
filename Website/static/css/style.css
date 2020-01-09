@@ -10,8 +10,8 @@ html {
             max-width: 100%;
             background: linear-gradient(rgba(45, 0, 0, 0.45),
                     rgba(45, 0, 0, 0.817)),
-                url("../images/alcohol-background-bar-301692_1.jpg");
-            height: auto;
+                url("../images/banner_4.jpg");
+            /* height: auto; */
             min-height: 30rem;
             background-attachment: fixed;
             background-position: center;
@@ -26,11 +26,11 @@ html {
             border-bottom: 1px solid #181818;
             max-width: 100%;
             background-image: 
-                url("../images/alcohol-background-bar-301692.jpg");
+                url("../images/banner_4.jpg");
             /* background: linear-gradient(rgba(8, 0, 52, 0.45),
                     rgba(0, 1, 45, 0.817)),
                 url("../images/alcohol-background-bar-301692_1.jpg"); */
-            height: auto;
+            /* height: auto; */
             filter: grayscale(50%);
             min-height: 30rem;
             background-attachment: fixed;
