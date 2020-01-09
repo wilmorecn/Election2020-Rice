@@ -1,0 +1,483 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.banner {
+            color: white;
+            padding-top: 6rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #181818;
+            max-width: 100%;
+            background: linear-gradient(rgba(45, 0, 0, 0.45),
+                    rgba(45, 0, 0, 0.817)),
+                url("../images/alcohol-background-bar-301692_1.jpg");
+            height: auto;
+            min-height: 30rem;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        .banner_1 {
+            color: white;
+            padding-top: 6rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #181818;
+            max-width: 100%;
+            background-image: 
+                url("../images/alcohol-background-bar-301692.jpg");
+            /* background: linear-gradient(rgba(8, 0, 52, 0.45),
+                    rgba(0, 1, 45, 0.817)),
+                url("../images/alcohol-background-bar-301692_1.jpg"); */
+            height: auto;
+            filter: grayscale(50%);
+            min-height: 30rem;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+
+        .banner-content {
+            max-width: 1170px;
+            margin: 2rem auto;
+            color: white;
+        }
+
+        .content {
+            margin: 2rem auto;
+            max-width: 1170px;
+        }
+
+        .svg_font {
+            font-family: Vast Shadow;
+            font-size: 8rem;
+            color: white;
+            fill: white;
+            opacity: 0.5;
+            z-index: 99;
+        }
+
+        h1 {
+            font-family: Montserrat, Helvetica, Arial, sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 3px;
+            line-height: 26px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-family: Montserrat, Helvetica, Arial, sans-serif;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 3px;
+            line-height: 26px;
+            text-transform: uppercase;
+        }
+
+        h4 {
+            font-family: Lato, 'Times New Roman', serif;
+            font-size: 19px;
+            font-style: italic;
+            font-weight: normal;
+            letter-spacing: normal;
+            line-height: 30px;
+            text-transform: none;
+        }
+
+        p {
+            font-family: Lato, 'Times New Roman', serif;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: normal;
+            line-height: 2em;
+            text-transform: none;
+        }
+
+        a {
+            /* font-family: Montserrat, 'Times New Roman', serif; */
+            /* font-size: 14px; */
+            font-style: normal;
+            font-weight: bold;
+            letter-spacing: normal;
+            line-height: 2em;
+            text-transform: none;
+            color: #3e1f08;
+        }
+
+        a.mini_link {
+            font-family: Montserrat, 'Times New Roman', serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: normal;
+            line-height: 2em;
+            text-transform: none;
+            color: #fff;
+        }
+
+        a:hover {
+            /* font-family: Montserrat, 'Times New Roman', serif; */
+            /* font-size: 14px; */
+            /* font-style: normal; */
+            font-weight: bold;
+            /* letter-spacing: normal; */
+            /* line-height: 2em; */
+            /* text-transform: none; */
+            color: #000000;
+        }
+
+        .nav-item,
+        .nav-link {
+            color: #fff;
+            font-family: Montserrat, 'Times New Roman', serif;
+
+        }
+
+        #GH_logo {
+            opacity: 0.5;
+        }
+
+        div.sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 50%;
+            /* right: 0; */
+            background-color: none;
+            color: #3e1f08;
+            text-align: left;
+            white-space: nowrap;
+            font-size: 20px;
+        }
+
+        .rotate {
+            transform: rotate(-90deg);
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+        }
+
+        /* .blank {
+    height: 100%;
+    width: 100%;
+} */
+        .tabs {
+            background: black;
+            /* padding: 1rem; */
+            font-weight: 300;
+
+        }
+
+        .tabs a {
+            background: black;
+            color: white;
+            padding: auto;
+            font-weight: 300;
+        }
+.tabs a:hover {
+    font-weight:bold;
+    text-decoration: underline;
+    color: white;
+}
+.tabs a:focus {
+    font-weight: bold;
+    text-decoration: underline;
+    color:white;
+}
+        .tabs_container {
+            width: 100%;
+            height: auto;
+        }
+
+        .nav {
+            justify-content: space-evenly;
+            text-align: center;
+            background: black;
+        }
+
+        table {
+            width: 98%;
+            text-align: center;
+            margin: 0.5em;
+            margin-bottom: 1em;
+        }
+
+        tr {
+            width: 90%;
+            text-align: center;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        td {
+            border: 1px solid grey;
+            padding: 10px;
+
+        }
+
+      
+        table.dataTable thead .sorting:after,
+        table.dataTable thead .sorting:before,
+        table.dataTable thead .sorting_asc:after,
+        table.dataTable thead .sorting_asc:before,
+        table.dataTable thead .sorting_asc_disabled:after,
+        table.dataTable thead .sorting_asc_disabled:before,
+        table.dataTable thead .sorting_desc:after,
+        table.dataTable thead .sorting_desc:before,
+        table.dataTable thead .sorting_desc_disabled:after,
+        table.dataTable thead .sorting_desc_disabled:before {
+            bottom: .5em;
+        }
+
+        .moveRight {
+            float:right;
+        }
+        .dataTables_length {float:left;
+        padding-right:10px;}
+        .DataTables_Table_0_filter {
+            float:right;
+            margin-right:0;
+        }
+        .table thead th {
+            background: black;
+            color: white;
+            text-transform: uppercase;
+        }
+        thead {
+            background: black;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        #map {
+            height:500px; 
+            width: 990px;
+        }
+
+        .legend_ {
+            background: rgba(255,255,255,.5); 
+            padding: 1.2em; 
+            margin-right:.5rem;
+            width: 17%;
+            float:right;
+        }
+
+        i {
+        width: 10px; height: 10px; display: inline-block;
+
+        }
+
+
+#ghBtn {
+    display: none;
+    position: fixed;
+    background: url('../images/GitHub-Mark-32px.png');
+    background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center; 
+opacity: .25;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    /* font-size: 18px; */
+    border: none;
+    /* outline: 2px; */
+    /* background-color: red; */
+    /* color: white; */
+    cursor: pointer;
+    padding: 25px;
+    /* border-radius: 4px; */
+  }
+  
+  #ghBtn:hover {
+    opacity: 1;
+  }
+.navbar {
+    border-radius: 0px;
+    background: red;
+    display:none;
+    margin-bottom: 0px;
+
+}
+ 
+.circle-icon {
+    background: #fff;
+    padding:3px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.circle-icon:hover {
+    background: red;
+    border: 1px solid red;
+
+}
+
+.icon-bar {
+    width: 10px;
+    /* background-color: #555; */
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 1px;
+    transition: all 0.3s ease;
+    color: white;
+    /* font-size: 36px; */
+  }
+  
+  .icon-bar a:hover {
+    /* background-color: #000; */
+    /* color: red; */
+    opacity:0;
+  }
+  
+  .active_icon {
+    /* background-color: #4CAF50; */
+  }
+
+  .sidestick:hover {
+font-weight: bold;
+cursor: pointer;
+  }
+
+
+
+	.node {
+		cursor: pointer;
+	}
+
+	.node circle {
+	  fill: rgba(23, 104, 165, 0.817);
+	  stroke: rgba(23, 104, 165, 0.817);
+	  stroke-width: 3px;
+	}
+
+	
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.node--internal circle {
+  fill: rgba(23, 104, 165, 0.817);
+}
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: rgb(69, 75, 87);
+  stroke-opacity: 0.4;
+  stroke-width: 1.5px;
+}
+
+.leaflet-popup-content {
+    width: auto !important;
+}
+
+.paginate_button {
+    padding: 0 4px 0 4px;
+}
+
+
+#table-wrapper {
+    position:relative;
+  }
+  #data-table_ {
+    height:450px;
+    overflow:auto;  
+    margin-top:20px;
+  }
+  #table-wrapper table {
+    width:100%;
+  
+  }
+  
+  #table-wrapper table thead th .text {
+    position:absolute;   
+    top:-20px;
+    z-index:2;
+    height:20px;
+    width:35%;
+    border:1px solid black;
+  }
+
+  .nav-pills>li>a {
+    border-radius: 0px;
+
+}
+
+li>a:focus {
+    border-radius: 0px;
+    background: gray;
+    color: black;
+}
+
+li>a:hover {
+    border-radius: 0px;
+    background: gray;
+    color: black;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: white;
+    font-weight: bold;
+    background: black;
+    text-decoration: underline;
+    border-radius: 0px;
+}
+
+.nav-pills>li.active {
+    color: black;
+    font-weight: bold;
+    background: black;
+}
+
+.nav-pills>li.active:hover {
+    color: black;
+    font-weight: bold;
+    background: black;
+}
+
+li.tabs:hover {
+    background: black;
+
+}
+
+.actives:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+button.btn {
+    border-radius: none !important;
+    color: white !important;
+    background: black !important;
+}
+
+button.btn-style {
+    border-radius: none !important;
+    color: white !important;
+    background: black !important;
+}
+
+.center {
+    text-align: center;
+}
