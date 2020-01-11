@@ -1,4 +1,3 @@
-var data= [
         {
             county: "Autauga",
             state: "Alabama",
