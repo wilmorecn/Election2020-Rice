@@ -34,7 +34,6 @@
   <link href="https://fonts.googleapis.com/css?family=Vast+Shadow:100,100i,300,300i,400,400i,700,700i,900,900i"
     rel="stylesheet">
 
-
   <link rel="stylesheet" href="../static/css/style.css">
 
   <title>Rice Analytica 2020</title>
@@ -65,7 +64,7 @@
           </li>
           <li>
             <a target="#_blank" href="https://github.com/Ricochet8/Election2020-Rice" style="padding-left:20px;">
-              <img id="GH_logo" width="32px" src="../static/images/banner_4.png"></img>
+              <img id="GH_logo" width="32px" src="../static/images/GitHub-Mark-32px.png"></img>
             </a>
           </li>
         </ul>
@@ -130,9 +129,9 @@
           <hr>
 
           <p style="font-style: italic;">Looking for a county's historical election results and characteristics?
-            <input type="text" id="keyWord" onkeyup="searchDescriptions()" placeholder="enter county"> See results
-            below.</p>
-          <br />
+            <input type="text" id="keyWord" placeholder="enter county name"> 
+          </p>
+          <button id="filter-btn" type="button" class="btn btn-default">Search Now</button>
           <br />
 
           <div class="container">
@@ -145,10 +144,11 @@
                         <th class="table-head">County</th>
                         <th class="table-head">State</th>
                         <th class="table-head">Election Yr</th>
-                        <th class="table-head">Population</th>
+                        <!-- <th class="table-head">Population</th> -->
                         <th class="table-head">Total Votes</th>
                         <th class="table-head">Democrat Votes</th>
                         <th class="table-head">Republican Votes</th>
+                        <th class="table-head">Other Votes</th>
                         <th class="table-head">Winning Party</th>
                       </tr>
                     </thead>
