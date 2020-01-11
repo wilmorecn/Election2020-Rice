@@ -58,4 +58,4 @@ def home():
 
 if __name__ == "__main__":
     # load_keras_model()
-    app.run()
+    app.run(debug=True)
