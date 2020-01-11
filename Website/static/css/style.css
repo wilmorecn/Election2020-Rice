@@ -1,6 +1,29 @@
 html {
     scroll-behavior: smooth;
+    background-color: seashell;
   }
+
+body {
+    background-color: seashell; 
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.col-md-1 {
+    background-color: seashell;
+}
+
+.col-md-11 {
+    background-color: seashell;
+}
+
 
 .banner {
             color: white;
@@ -11,7 +34,7 @@ html {
             background: linear-gradient(rgba(45, 0, 0, 0.45),
                     rgba(45, 0, 0, 0.817)),
                 url("../images/banner_4.jpg");
-            /* height: auto; */
+            /* height: auto;*/
             min-height: 30rem;
             background-attachment: fixed;
             background-position: center;
@@ -62,33 +85,47 @@ html {
         }
 
         h1 {
-            font-family: Montserrat, Helvetica, Arial, sans-serif;
-            font-size: 32px;
+            font-family: Gill Sans Extrabold, Helvetica, Arial, serif;
+            font-size: 45px;
             font-style: normal;
             font-weight: normal;
-            letter-spacing: 3px;
-            line-height: 26px;
+            letter-spacing: 5px;
+            line-height: 30px;
             text-transform: uppercase;
+            text-align: center;
         }
 
         h2 {
-            font-family: Montserrat, Helvetica, Arial, sans-serif;
+            font-family: Georgia, serif;
             font-size: 30px;
             font-style: normal;
             font-weight: normal;
             letter-spacing: 3px;
             line-height: 26px;
             text-transform: uppercase;
+            text-align: center;
+        }
+
+        h3 {
+            font-family: Montserrat, Helvetica, Arial, serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 3px;
+            line-height: 26px;
+            text-transform: uppercase;
+            text-align: center;
         }
 
         h4 {
             font-family: Lato, 'Times New Roman', serif;
-            font-size: 19px;
+            font-size: 20px;
             font-style: italic;
             font-weight: normal;
             letter-spacing: normal;
             line-height: 30px;
             text-transform: none;
+            text-align: center;
         }
 
         p {
@@ -479,5 +516,9 @@ button.btn-style {
 }
 
 .center {
+    text-align: center;
+}
+
+#model {
     text-align: center;
 }

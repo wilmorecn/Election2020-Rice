@@ -77,18 +77,21 @@
     <div class="banner-content">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
 
             <h1>Rice Analytica 2020</h1>
-            <h4>Header</h4><br>
-            <p>One sentance summary here.</p>
+            <h3>Historical Election Data and 2020 Predictions</h3>
+            <br>
+            <p>For our Project 3 of the Data Analytics Bootcamp, we chose to review presidential election results for
+              the 2008, 2012, and 2016 election years. We reviews the data for every county in the United States. In
+              addition we collected demographic (race, population, age, marital status, household size, military
+              service, etc.),
+              education, median income, and gross domestic product information for each county. Below we discuss our
+              findings.</p>
 
             <a class="mini_link" href="https://github.com/Ricochet8/Election2020-Rice" target="_blank">VIEW GITHUB
               <span>&#8594;</span></a>
 
-          </div>
-          <div class="col-md-6">
-            <!-- <img src="https://via.placeholder.com/528x400.png"> -->
           </div>
         </div>
       </div>
@@ -111,35 +114,56 @@
         </div>
       </div>
 
-      <div class="col-md-11" style="padding-left: 4rem;">
+      <div class="col-md-11" style="padding-left: 2rem;">
 
         <div class="content">
           <h2>Rice Analytica 2020</h2>
-          <h4>Heading</h4>
-          <p>Summary</p>
+          <h4>Presidential Elections</h4>
+          <p>There is nothing that says democracy more than the word ELECTION! 
+            (continue on with more verbiage....)</p>
           <hr>
-          <h2>Title</h2>
-          <h4>Heading</h4>
-          <p>Summary intro to link <a
-              href="http://whiskyadvocate.com/" target="_blank">Election Data</a> continued summary </p>
-          <p>Summary</p>
+          <br />
+          <h2>Election Results Map</h2>
+          <h4>Results for each county by year. (Choropleth here)</h4>
+          <br />
+          <p>Summary: blah blah blah</p>
           <hr>
 
-          <p style="font-style: italic;">Looking for a whiskey with notes of... <input type="text" id="keyWord"
-              onkeyup="searchDescriptions()" placeholder="enter keyword"> ? See results below.</p>
+          <p style="font-style: italic;">Looking for a county's historical election results and characteristics?
+            <input type="text" id="keyWord" onkeyup="searchDescriptions()" placeholder="enter county"> See results
+            below.</p>
+          <br />
+          <br />
 
-
-          <div id="table-wrapper">
-            <div id="data-table_">
-
-
+          <div class="container">
+            <div class="row margin-top-50">
+              <div class="col-md-11">
+                <div id="table-wrapper" class="">
+                  <table id="data-table_" class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th class="table-head">County</th>
+                        <th class="table-head">State</th>
+                        <th class="table-head">Election Yr</th>
+                        <th class="table-head">Population</th>
+                        <th class="table-head">Total Votes</th>
+                        <th class="table-head">Democrat Votes</th>
+                        <th class="table-head">Republican Votes</th>
+                        <th class="table-head">Winning Party</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
-          <hr>
-          <br>
+
+        </div>
+        <hr>
+        <!-- <br>
           <div class="content">
-            <h2>Using Words to Predict Numbers
-            </h2>
+            <h2>Using Words to Predict Numbers</h2>
             <h4>does a whiskey review predict review points and / or pricing?</h4>
 
             <div class="tabs_container">
@@ -174,192 +198,174 @@
                 </div>
               </div>
             </div>
-            <p>The top 10 words contribute for more than 30% of the weighting in the Random Forest
-              classification model with the Price Bins label: finish / whiskey / sweet / nose / vanilla /
-              notes / palate / oak / fruit / light.
+            <p>blah blah blah
             </p>
 
           </div>
-          <hr>
-        </div>
-        <div class="content">
-
-          <h2>Title</h2>
-          <h4>Heading</h4>
-          <p>Summary</p>
-          <br>
-          <div id="map"></div>
-          <br>
-        </div>
-
-        <hr>
-        <div class="content">
-          <h2>Title</h2>
-          <h4>Heading</h4>
-          <p>Summary</p>
-
-          <svg width="960" height="960" class="dend"></svg>
-
-        </div>
-
-
-        <hr>
+          <hr> -->
+      <div class="content">
+        <h2>The Data</h2>
+        <h4>Collection, Cleaning, and Transforming</h4>
+        <p>Summary- blah blah blah</p>
         <br>
-        <div class="content">
-          <h2>Title</h2>
-          <h4>Heading</h4>
-          <p>Summary</p>
-
-          <div class='tableauPlaceholder' id='viz1564698082593' style='position: relative'><noscript><a href='#'><img
-                  alt=' '
-                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;AgevsPrice&#47;1_rss.png'
-                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-              <param name='embed_code_version' value='3' />
-              <param name='site_root' value='' />
-              <param name='name' value='Whisky_15639337432420&#47;AgevsPrice' />
-              <param name='tabs' value='no' />
-              <param name='toolbar' value='yes' />
-              <param name='static_image'
-                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;AgevsPrice&#47;1.png' />
-              <param name='animate_transition' value='yes' />
-              <param name='display_static_image' value='yes' />
-              <param name='display_spinner' value='yes' />
-              <param name='display_overlay' value='yes' />
-              <param name='display_count' value='yes' /></object></div>
-          <script
-            type='text/javascript'>                    var divElement = document.getElementById('viz1564698082593'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        </div>
+        <!-- <div id="map"></div> -->
         <br>
         <hr>
-        <h2>Title</h2>
+      </div>
+      
+      <div class="content">
+        <h2>Tableau Table Comparison 1</h2>
         <h4>Heading</h4>
-        <p>Summary</p>
+        <p>Summary- blah blah blah</p>
+        <br>
+        <div id="map"></div>
+        <br>
+      </div>
 
-        <div class='tableauPlaceholder' id='viz1564698804578' style='position: relative'><noscript><a href='#'><img
+      <hr>
+
+      <br>
+      <div class="content">
+        <h2>Tableau Table Comparison 2</h2>
+        <h4>Heading</h4>
+        <p>Summary- blah blah blah</p>
+
+        <div class='tableauPlaceholder' id='viz1564698082593' style='position: relative'><noscript><a href='#'><img
                 alt=' '
-                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;WhiskeyType&#47;1_rss.png'
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;AgevsPrice&#47;1_rss.png'
                 style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
             <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
             <param name='embed_code_version' value='3' />
             <param name='site_root' value='' />
-            <param name='name' value='Whisky_15639337432420&#47;WhiskeyType' />
+            <param name='name' value='Whisky_15639337432420&#47;AgevsPrice' />
             <param name='tabs' value='no' />
             <param name='toolbar' value='yes' />
             <param name='static_image'
-              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;WhiskeyType&#47;1.png' />
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;AgevsPrice&#47;1.png' />
             <param name='animate_transition' value='yes' />
             <param name='display_static_image' value='yes' />
             <param name='display_spinner' value='yes' />
             <param name='display_overlay' value='yes' />
             <param name='display_count' value='yes' /></object></div>
-        <script
-          type='text/javascript'>                    var divElement = document.getElementById('viz1564698804578'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        <br>
-        <div class='tableauPlaceholder' id='viz1564698758638' style='position: relative'><noscript><a href='#'><img
-                alt=' '
-                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;Distillers&#47;1_rss.png'
-                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-            <param name='embed_code_version' value='3' />
-            <param name='site_root' value='' />
-            <param name='name' value='Whisky_15639337432420&#47;Distillers' />
-            <param name='tabs' value='no' />
-            <param name='toolbar' value='yes' />
-            <param name='static_image'
-              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;Distillers&#47;1.png' />
-            <param name='animate_transition' value='yes' />
-            <param name='display_static_image' value='yes' />
-            <param name='display_spinner' value='yes' />
-            <param name='display_overlay' value='yes' />
-            <param name='display_count' value='yes' /></object></div>
-        <script
-          type='text/javascript'>                    var divElement = document.getElementById('viz1564698758638'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        <br>
-        <hr>
-        <h2>Title</h2>
-        <h4>Heading</h4>
-        <p>Summary</p>
+        <script type='text/javascript'>
+          var divElement = document.getElementById('viz1564698082593'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+      </div>
+      <br>
+      <hr>
+      <h2>Tableau Table Comparison 3</h2>
+      <h4>Heading</h4>
+      <p>Summary- blah blah blah</p>
 
-        <div class='tableauPlaceholder' id='viz1564697864516' style='position: relative'><noscript><a href='#'><img
-                alt=' '
-                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PP&#47;PPKY5H5DB&#47;1_rss.png'
-                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-            <param name='embed_code_version' value='3' />
-            <param name='path' value='shared&#47;PPKY5H5DB' />
-            <param name='toolbar' value='yes' />
-            <param name='static_image'
-              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PP&#47;PPKY5H5DB&#47;1.png' />
-            <param name='animate_transition' value='yes' />
-            <param name='display_static_image' value='yes' />
-            <param name='display_spinner' value='yes' />
-            <param name='display_overlay' value='yes' />
-            <param name='display_count' value='yes' /></object></div>
-        <script
-          type='text/javascript'>                    var divElement = document.getElementById('viz1564697864516'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.minWidth = '420px'; vizElement.style.maxWidth = '650px'; vizElement.style.width = '100%'; vizElement.style.minHeight = '587px'; vizElement.style.maxHeight = '887px'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        <br>
-        <hr>
-        <h2>Title</h2>
-        <h4>Heading</h4>
-        <p>Summary</p>
-        <div class='tableauPlaceholder' id='viz1564698824909' style='position: relative'><noscript><a href='#'><img
-                alt=' '
-                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whiskey_15642449808000&#47;Dashboard1&#47;1_rss.png'
-                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-            <param name='embed_code_version' value='3' />
-            <param name='site_root' value='' />
-            <param name='name' value='Whiskey_15642449808000&#47;Dashboard1' />
-            <param name='tabs' value='no' />
-            <param name='toolbar' value='yes' />
-            <param name='static_image'
-              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whiskey_15642449808000&#47;Dashboard1&#47;1.png' />
-            <param name='animate_transition' value='yes' />
-            <param name='display_static_image' value='yes' />
-            <param name='display_spinner' value='yes' />
-            <param name='display_overlay' value='yes' />
-            <param name='display_count' value='yes' /></object></div>
-        <script
-          type='text/javascript'>                    var divElement = document.getElementById('viz1564698824909'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.minWidth = '420px'; vizElement.style.maxWidth = '650px'; vizElement.style.width = '100%'; vizElement.style.minHeight = '587px'; vizElement.style.maxHeight = '887px'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      <div class='tableauPlaceholder' id='viz1564698804578' style='position: relative'><noscript><a href='#'><img
+              alt=' '
+              src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;WhiskeyType&#47;1_rss.png'
+              style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='Whisky_15639337432420&#47;WhiskeyType' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image'
+            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;WhiskeyType&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' /></object></div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1564698804578'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+      </script>
+      <br>
 
-        <br>
-        <div class="content">
-          <hr>
+      <div class='tableauPlaceholder' id='viz1564698758638' style='position: relative'><noscript><a href='#'><img
+              alt=' '
+              src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;Distillers&#47;1_rss.png'
+              style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='Whisky_15639337432420&#47;Distillers' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image'
+            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;Distillers&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' /></object></div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1564698758638'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      <br>
+      <hr>
+      <h2>Tableau Table Comparison 4</h2>
+      <h4>Heading</h4>
+      <p>Summary- blah blah blah</p>
 
-          <h2 id="model">Machine Learning Title</h2>
-          <h4>Heading</h4>
-          <p>Using vectorized descriptions, the model below predicts the style of whiskey the description most
-            resembles.</p>
-          <button class='btn'><a style="color: white" href="https://thewhiskeyproject.herokuapp.com/model">FIND A
-              WHISKEY FOR YOU</a></button>
-
-
-
-        </div>
-
-
+      <div class='tableauPlaceholder' id='viz1564697864516' style='position: relative'><noscript><a href='#'><img
+              alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PP&#47;PPKY5H5DB&#47;1_rss.png'
+              style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='path' value='shared&#47;PPKY5H5DB' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image'
+            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PP&#47;PPKY5H5DB&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' /></object></div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1564697864516'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.minWidth = '420px'; vizElement.style.maxWidth = '650px'; vizElement.style.width = '100%'; vizElement.style.minHeight = '587px'; vizElement.style.maxHeight = '887px'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      <br>
+      <hr>
+      <h2>Tableau Table Comparison 5</h2>
+      <h4>Heading</h4>
+      <p>Summary- blah blah blah</p>
+      <div class='tableauPlaceholder' id='viz1564698824909' style='position: relative'><noscript><a href='#'><img
+              alt=' '
+              src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whiskey_15642449808000&#47;Dashboard1&#47;1_rss.png'
+              style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='Whiskey_15642449808000&#47;Dashboard1' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image'
+            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whiskey_15642449808000&#47;Dashboard1&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' /></object></div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1564698824909'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.minWidth = '420px'; vizElement.style.maxWidth = '650px'; vizElement.style.width = '100%'; vizElement.style.minHeight = '587px'; vizElement.style.maxHeight = '887px'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      <hr>
+      <br>
+      <div class="content" text="center">
+        <h2 id="model">Election Preditions</h2>
+        <h4>Machine Learning Model</h4>
+        <p>Using vectorized descriptions, the model below predicts the political party election results for the 2020
+          presidential election.</p>
+        <button class='btn'><a style="color: white" href="#">Predict the Next President</a></button>
       </div>
     </div>
   </div>
   </div>
-
-
-
-
-
+  <!-- </div>
 
   </div>
-  </div>
+  </div> -->
   <footer class="py-3">
     <div class="container">
-
-      <p class="m-0 text-center text-black small">Kurt Held, Frederik De Bruyker, Devynn Moreno, Jonathan Randolph,
-        Elsa Schieffelin
-      </p>
-      <p class="m-0 text-center text-black small">Rice University Data Analytics Boot Camp | August 2019</p>
+      <p class="m-0 text-center text-black small">Wenyuan Qiu, Christy Dafonte, Devon Firestone, Elizabeth Shaw, Douglas
+        McNeil</p>
+      <p class="m-0 text-center text-black small">Rice University Data Analytics Boot Camp | January 2020</p>
     </div>
-    <!-- /.container -->
   </footer>
   <!-- JQuery -->
 
@@ -374,15 +380,10 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.7/js/mdb.min.js"></script>
-  <script src="../static/js/config.js"></script>
-  <script src="../static/js/logic.js"></script>
-  <script src="../static/js/logic_1.js"></script>
-  <script src="../static/js/dendrogram.js"></script>
 
-
-
-
-
+  <!-- <script src="../static/js/config.js"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="../static/js/data.js"></script>
 </body>
 
 </html>
