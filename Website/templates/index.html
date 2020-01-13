@@ -52,7 +52,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#s_1">SECTION 1</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#s_2">SECTION 2</a>
           </li>
@@ -64,7 +63,7 @@
           </li>
           <li>
             <a target="#_blank" href="https://github.com/Ricochet8/Election2020-Rice" style="padding-left:20px;">
-              <img id="GH_logo" width="32px" src="../static/images/GitHub-Mark-32px.png"></img>
+              <img id="gh_logo" width="32px" src="../static/images/GitHub-Mark-32px.png"></img>
             </a>
           </li>
         </ul>
@@ -81,12 +80,6 @@
             <h1>Rice Analytica 2020</h1>
             <h3>Historical Election Data and 2020 Predictions</h3>
             <br>
-            <p>For Project 3 of the Data Analytics Bootcamp, we chose to review presidential election results for
-              the 2008, 2012, and 2016 election years by diving into the data for every county in the United States. In
-              addition to election data, we collected education, median income, gross domestic product, and 
-              demographic (race, population, age, marital status, household size, military service, etc.), information 
-              for each county. Below we discuss our findings.
-            </p>
 
             <a class="mini_link" href="https://github.com/Ricochet8/Election2020-Rice" target="_blank">VIEW GITHUB
               <span>&#8594;</span></a>
@@ -98,18 +91,16 @@
 
   </div>
 
-
-
   <div class="container">
 
     <a href="https://github.com/Ricochet8/Election2020-Rice" target="_blank"><button id="ghBtn"
         title="To GitHub"></button></a>
     <div class="row">
       <div class="col-md-1" style="margin-top: 0; margin-left:0;">
-        <!-- <div class="blank"></div> -->
+
         <div class="sticky rotate">
-          <h4 class="sidestick" style="margin-top: 180px;" onclick=topFunction()><span>&#8213;
-            </span>Rice Analytica 2020<span>&#8213;</span></h4>
+          <h4 class="sidestick" style="margin-top: 180px;" onclick=topFunction()><span>&#8213; </span>Rice Analytica
+            2020<span>&#8213;</span></h4>
         </div>
       </div>
 
@@ -118,276 +109,248 @@
         <div class="content">
           <h2>Rice Analytica 2020</h2>
           <h4>Presidential Elections</h4>
-          <p>There is nothing that says democracy more than the word ELECTION! 
-            (continue on with more verbiage....)</p>
-          <hr>
-          <br />
-          <h2>Election Results Map</h2>
-          <h4>Results for each county by year. (Choropleth here)</h4>
-          <br />
-          <p>Summary: blah blah blah</p>
-        </div>
-        <hr>
-        <div>
-          <p style="font-style: italic;">Looking for a specific county's historical election results?   
-          </p>
-          <div>
-            <input class="form-control" id="county" type="text" placeholder="Enter Full County Name">
-            <input class="form-control" id="state" type="text" placeholder="Enter Full State Name">
-          </div>
-          <div><button id="search-btn" type="button" class="btn btn-default">Search Now</button></div>
+          <p>There is nothing that says democracy more than the word ELECTION!<br />
+            For Project 3 of the Data Analytics Bootcamp, we chose to review presidential election results for
+            the 2008, 2012, and 2016 election years by diving into the data for every county in the United States. In
+            addition to election data, we collected education, median income, gross domestic product, and
+            demographic (race, population, age, marital status, household size, military service, etc.), information
+            for each county. Below we discuss our findings.</p>
           <br>
+          <hr>
+          
+          <h2>U.S. Election Results 2008 to 2016</h2>
+          <br>
+          <p>This map shows which party won past elections by county by year.</p>
+          <br>
+          <div class='tableauPlaceholder' id='viz1578875477142' style='position: relative'><noscript><a href='#'><img
+                  alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Total_votes_bycounty&#47;Sheet1&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='Total_votes_bycounty&#47;Sheet1' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='yes' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Total_votes_bycounty&#47;Sheet1&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' /></object></div>
+          <script type='text/javascript'>
+            var divElement = document.getElementById('viz1578875477142'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+          </script>
+          <br>
+          <hr>
+          <div>
+            <p style="font-style: italic;">Looking for a specific county's historical election results?
+            </p>
+            <div>
+              <input class="form-control" id="county" type="text" placeholder="County Full Name">
+              <input class="form-control" id="state" type="text" placeholder="State Full Name">
+            </div>
+            <div><button id="search-btn" type="button" class="btn btn-default">Search Now</button></div>
+            <br>
 
-          <div class="container">
-            <div class="row margin-top-50">
-              <div class="col-md-11">
-                <div id="table-area" class="">
-                  <table id="data-table" class="table table-striped">
-                    <thead>
-                      <tr>
-                        <th class="table-head">County</th>
-                        <th class="table-head">State</th>
-                        <th class="table-head">Election Year</th>
-                        <th class="table-head">Population</th>
-                        <th class="table-head">Total Votes</th>
-                        <th class="table-head">Democrat Votes</th>
-                        <th class="table-head">Republican Votes</th>
-                        <th class="table-head">Other Votes</th>
-                        <th class="table-head">Winning Party</th>
-                      </tr>
-                    </thead>
-                    <tbody></tbody>
-                  </table>
+            <div class="container">
+              <div class="row margin-top-50">
+                <div class="col-md-11">
+                  <div id="table-area" class="">
+                    <table id="data-table" class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th class="table-head">County</th>
+                          <th class="table-head">State</th>
+                          <th class="table-head">Election Year</th>
+                          <th class="table-head">Population</th>
+                          <th class="table-head">Total Votes</th>
+                          <th class="table-head">Democrat Votes</th>
+                          <th class="table-head">Republican Votes</th>
+                          <th class="table-head">Other Votes</th>
+                          <th class="table-head">Winning Party</th>
+                        </tr>
+                      </thead>
+                      <tbody></tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <br>
+          <hr>
+
+          <div class="content">
+            <h2>The Data</h2>
+            <h4>Collection, Cleaning, and Transforming</h4>
+            <p>Summary- blah blah blah</p> 
+          </div>
+          <br>
+          <hr>
+
+          <div class="content">
+            <h2>Election Breakdown by Party by Year</h2>
+            <h4>Heading</h4>
+            <p>This is a visual that shows what share (by votes) of the electorate that went for the parties by state by
+              year.</p>
+            <br>
+            <div class='tableauPlaceholder' id='viz1578875234067' style='position: relative'><noscript><a href='#'><img
+                    alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;El&#47;Election_breakdown_byyear&#47;ElectionBreakdownbyYear&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='Election_breakdown_byyear&#47;ElectionBreakdownbyYear' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                  value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;El&#47;Election_breakdown_byyear&#47;ElectionBreakdownbyYear&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' /></object></div>
+            <script type='text/javascript'>
+              var divElement = document.getElementById('viz1578875234067'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+              var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+          </div>
+          <br>
+          <hr>
+          
+          <div class="content">
+            <h2>Religion and Elections</h2>
+            <h4>Religious Affiliation with Population by County</h4>
+            <p>This map can be adjusted for percent of county where residents follow (or don't follow) a particular
+              relgion.</p>
+
+            <div class='tableauPlaceholder' id='viz1578875955652' style='position: relative'><noscript><a href='#'><img
+                    alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5Y&#47;5Y6WB7SH3&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='path' value='shared&#47;5Y6WB7SH3' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                  value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5Y&#47;5Y6WB7SH3&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' /></object></div>
+            <script type='text/javascript'>
+              var divElement = document.getElementById('viz1578875955652'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+              var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+            <br>
+            <hr>
+            <h2>Tableau Table Comparison 3</h2>
+            <h4>Heading</h4>
+            <p>Summary- blah blah blah</p>
+
+            <div></div>
+            <br>
+            <hr>
+
+            <h2>Election Results By County</h2>
+            <h4>Regression Analysis</h4>
+            <p>Comparisons among Linear Regression, Neural Network, and Random Forest Methods. Visualizations of most
+              important features.
+            </p>
+            <div class='tableauPlaceholder' id='viz1578877366114' style='position: relative'><noscript><a href='#'><img
+                    alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;7G&#47;7G9JZ9G8J&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='path' value='shared&#47;7G9JZ9G8J' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                  value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;7G&#47;7G9JZ9G8J&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='filter' value='publish=yes' /></object></div>
+            <script type='text/javascript'>
+              var divElement = document.getElementById('viz1578877366114'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '1016px'; vizElement.style.height = '991px';
+              var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+            <br>
+            <hr>
+
+            <h2>Election Results By County</h2>
+            <h4>Regression Analysis for Differences Between 2012 and 2016</h4>
+            <p>Comparisons between Linear Regression and Random Forest Methods. Visualizations of most important
+              features and Maps of Changes Between 2012 and 2016.</p>
+            <div class='tableauPlaceholder' id='viz1578877692797' style='position: relative'><noscript><a href='#'><img
+                    alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;El&#47;ElectionExplanations12To16&#47;Story&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='ElectionExplanations12To16&#47;Story' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                  value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;El&#47;ElectionExplanations12To16&#47;Story&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='filter' value='publish=yes' /></object></div>
+            <script type='text/javascript'>
+              var divElement = document.getElementById('viz1578877692797'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '1016px'; vizElement.style.height = '991px';
+              var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+            <br>
+            <hr>
+           
+            <div class="content" text="center">
+              <h2 id="model">Election Predictions</h2>
+              <h4>Machine Learning Model</h4>
+              <p>Using vectorized descriptions, the model below predicts the political party election results for the
+                2020 presidential election.
+              </p>
+              <button class='btn'><a style="color: white" href="#">Predict the Next President</a></button>
             </div>
           </div>
         </div>
-        <hr>
-        <!-- <br>
-          <div class="content">
-            <h2>Using Words to Predict Numbers</h2>
-            <h4>does a whiskey review predict review points and / or pricing?</h4>
-
-            <div class="tabs_container">
-              <ul class="nav nav-pills fw_tabs">
-                <li class="active tabs"><a data-toggle="pill" href="#menu1" class="active"
-                    onclick=toggleClass()>Logistic Regression</a></li>
-                <li class="tabs"><a data-toggle="pill" href="#menu2" onclick=toggleClass()>Random Forest</a></li>
-                <li class="tabs"><a data-toggle="pill" href="#menu3" onclick=toggleClass()>Naive Bayes -
-                    Multinominal</a></li>
-                <li class="tabs"><a data-toggle="pill" href="#menu4" onclick=toggleClass()>Naive Bayes - Bernoulli</a>
-                </li>
-                <li class="tabs"><a data-toggle="pill" href="#menu5" onclick=toggleClass()>Support Vector Machine</a>
-                </li>
-
-              </ul>
-
-              <div class="tab-content">
-                <div id="menu1" class="tab-pane in active">
-                  <div id="text_review_log" class="table table-striped table-bordered table-sm active"></div>
-                </div>
-                <div id="menu2" class="tab-pane fade">
-                  <div id="text_review_rf" class="table table-striped table-bordered table-sm"></div>
-                </div>
-                <div id="menu3" class="tab-pane fade">
-                  <div id="text_review_nbm" class="table table-striped table-bordered table-sm"></div>
-                </div>
-                <div id="menu4" class="tab-pane fade">
-                  <div id="text_review_nbb" class="table table-striped table-bordered table-sm"></div>
-                </div>
-                <div id="menu5" class="tab-pane fade">
-                  <div id="text_review_svm" class="table table-striped table-bordered table-sm"></div>
-                </div>
-              </div>
-            </div>
-            <p>blah blah blah
-            </p>
-
-          </div>
-          <hr> -->
-      <div class="content">
-        <h2>The Data</h2>
-        <h4>Collection, Cleaning, and Transforming</h4>
-        <p>Summary- blah blah blah</p>
-        <br>
-        <!-- <div id="map"></div> -->
-        <br>
-        <hr>
-      </div>
-      
-      <div class="content">
-        <h2>Tableau Table Comparison 1</h2>
-        <h4>Heading</h4>
-        <p>Summary- blah blah blah</p>
-        <br>
-        <div id="map"></div>
-        <br>
-      </div>
-
-      <hr>
-
-      <br>
-      <div class="content">
-        <h2>Tableau Table Comparison 2</h2>
-        <h4>Heading</h4>
-        <p>Summary- blah blah blah</p>
-
-        <div class='tableauPlaceholder' id='viz1564698082593' style='position: relative'><noscript><a href='#'><img
-                alt=' '
-                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;AgevsPrice&#47;1_rss.png'
-                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-            <param name='embed_code_version' value='3' />
-            <param name='site_root' value='' />
-            <param name='name' value='Whisky_15639337432420&#47;AgevsPrice' />
-            <param name='tabs' value='no' />
-            <param name='toolbar' value='yes' />
-            <param name='static_image'
-              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;AgevsPrice&#47;1.png' />
-            <param name='animate_transition' value='yes' />
-            <param name='display_static_image' value='yes' />
-            <param name='display_spinner' value='yes' />
-            <param name='display_overlay' value='yes' />
-            <param name='display_count' value='yes' /></object></div>
-        <script type='text/javascript'>
-          var divElement = document.getElementById('viz1564698082593'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-        </script>
-      </div>
-      <br>
-      <hr>
-      <h2>Tableau Table Comparison 3</h2>
-      <h4>Heading</h4>
-      <p>Summary- blah blah blah</p>
-
-      <div class='tableauPlaceholder' id='viz1564698804578' style='position: relative'><noscript><a href='#'><img
-              alt=' '
-              src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;WhiskeyType&#47;1_rss.png'
-              style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-          <param name='embed_code_version' value='3' />
-          <param name='site_root' value='' />
-          <param name='name' value='Whisky_15639337432420&#47;WhiskeyType' />
-          <param name='tabs' value='no' />
-          <param name='toolbar' value='yes' />
-          <param name='static_image'
-            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;WhiskeyType&#47;1.png' />
-          <param name='animate_transition' value='yes' />
-          <param name='display_static_image' value='yes' />
-          <param name='display_spinner' value='yes' />
-          <param name='display_overlay' value='yes' />
-          <param name='display_count' value='yes' /></object></div>
-      <script type='text/javascript'>
-        var divElement = document.getElementById('viz1564698804578'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-      </script>
-      <br>
-
-      <div class='tableauPlaceholder' id='viz1564698758638' style='position: relative'><noscript><a href='#'><img
-              alt=' '
-              src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;Distillers&#47;1_rss.png'
-              style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-          <param name='embed_code_version' value='3' />
-          <param name='site_root' value='' />
-          <param name='name' value='Whisky_15639337432420&#47;Distillers' />
-          <param name='tabs' value='no' />
-          <param name='toolbar' value='yes' />
-          <param name='static_image'
-            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whisky_15639337432420&#47;Distillers&#47;1.png' />
-          <param name='animate_transition' value='yes' />
-          <param name='display_static_image' value='yes' />
-          <param name='display_spinner' value='yes' />
-          <param name='display_overlay' value='yes' />
-          <param name='display_count' value='yes' /></object></div>
-      <script type='text/javascript'>
-        var divElement = document.getElementById('viz1564698758638'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-      <br>
-      <hr>
-      <h2>Tableau Table Comparison 4</h2>
-      <h4>Heading</h4>
-      <p>Summary- blah blah blah</p>
-
-      <div class='tableauPlaceholder' id='viz1564697864516' style='position: relative'><noscript><a href='#'><img
-              alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PP&#47;PPKY5H5DB&#47;1_rss.png'
-              style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-          <param name='embed_code_version' value='3' />
-          <param name='path' value='shared&#47;PPKY5H5DB' />
-          <param name='toolbar' value='yes' />
-          <param name='static_image'
-            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PP&#47;PPKY5H5DB&#47;1.png' />
-          <param name='animate_transition' value='yes' />
-          <param name='display_static_image' value='yes' />
-          <param name='display_spinner' value='yes' />
-          <param name='display_overlay' value='yes' />
-          <param name='display_count' value='yes' /></object></div>
-      <script type='text/javascript'>
-        var divElement = document.getElementById('viz1564697864516'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.minWidth = '420px'; vizElement.style.maxWidth = '650px'; vizElement.style.width = '100%'; vizElement.style.minHeight = '587px'; vizElement.style.maxHeight = '887px'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-      <br>
-      <hr>
-      <h2>Tableau Table Comparison 5</h2>
-      <h4>Heading</h4>
-      <p>Summary- blah blah blah</p>
-      <div class='tableauPlaceholder' id='viz1564698824909' style='position: relative'><noscript><a href='#'><img
-              alt=' '
-              src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whiskey_15642449808000&#47;Dashboard1&#47;1_rss.png'
-              style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-          <param name='embed_code_version' value='3' />
-          <param name='site_root' value='' />
-          <param name='name' value='Whiskey_15642449808000&#47;Dashboard1' />
-          <param name='tabs' value='no' />
-          <param name='toolbar' value='yes' />
-          <param name='static_image'
-            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whiskey_15642449808000&#47;Dashboard1&#47;1.png' />
-          <param name='animate_transition' value='yes' />
-          <param name='display_static_image' value='yes' />
-          <param name='display_spinner' value='yes' />
-          <param name='display_overlay' value='yes' />
-          <param name='display_count' value='yes' /></object></div>
-      <script type='text/javascript'>
-        var divElement = document.getElementById('viz1564698824909'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.minWidth = '420px'; vizElement.style.maxWidth = '650px'; vizElement.style.width = '100%'; vizElement.style.minHeight = '587px'; vizElement.style.maxHeight = '887px'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-      <hr>
-      <br>
-      <div class="content" text="center">
-        <h2 id="model">Election Predictions</h2>
-        <h4>Machine Learning Model</h4>
-        <p>Using vectorized descriptions, the model below predicts the political party election results for the 2020
-          presidential election.</p>
-        <button class='btn'><a style="color: white" href="#">Predict the Next President</a></button>
       </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <footer class="py-3">
+      <div class="container">
+        <p class="m-0 text-center text-black small">Wenyuan Qiu, Christy Dafonte, Devon Firestone, Elizabeth Shaw, and Douglas McNeil </p>
+        <p class="m-0 text-center text-black small">Rice University Data Analytics Boot Camp | January 2020</p>
+      </div>
+    </footer>
+    <!-- JQuery -->
+
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.7/js/mdb.min.js"></script>
+    <!-- <script src="../static/js/config.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="../static/js/data.js"></script>
+    <script src="../static/js/logic.js"></script>
   </div>
-  </div>
-  <!-- </div>
-
-  </div>
-  </div> -->
-  <footer class="py-3">
-    <div class="container">
-      <p class="m-0 text-center text-black small">Wenyuan Qiu, Christy Dafonte, Devon Firestone, Elizabeth Shaw, Douglas
-        McNeil</p>
-      <p class="m-0 text-center text-black small">Rice University Data Analytics Boot Camp | January 2020</p>
-    </div>
-  </footer>
-  <!-- JQuery -->
-
-  <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-
-  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.7/js/mdb.min.js"></script>
-
-  <!-- <script src="../static/js/config.js"></script>-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-  <script src="../static/js/data.js"></script>
-  <script src="../static/js/logic.js"></script>
 </body>
 
 </html>

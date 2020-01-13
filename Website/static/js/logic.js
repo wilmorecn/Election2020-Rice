@@ -6,13 +6,12 @@ var ElectionData = data;
 var button = d3.select("#search-btn");
 // var tbody = d3.select("tbody");
 button.on("click", function () {
-    // tbody.html("");
     // Select the input element and get the raw HTML node
     var inputCounty = d3.select("#county-input");
-    var inputState = d3.select("#state-input");
+    // var inputState = d3.select("#state-input");
     // Get the value property of the input element for County
     var inputValueCounty = inputCounty.property("value");
-    var inputValueState = inputState.property("value");
+    // var inputValueState = inputState.property("value");
     // console.log(inputValue);
     // console.log(ElectionData);
     if (inputValueCounty) {
@@ -51,41 +50,3 @@ function scrollFunction() {
         document.getElementById("ghBtn").style.display = "none";
     }
 };
-// function searchCounties() {
-//     var input = document.getElementById("keyWord");
-//     var filter = input.value.toUpperCase();
-//     var table = document.getElementById("data-table_");
-//     var tr = table.getElementsByTagName("tr");
-//     for (i = 0; i < tr.length; i++) {
-//         var td = tr[i].getElementsByTagName("td")[1];
-//         if (td) {
-//             txtValue = td.textContent || td.innerText;
-//             if (txtValue.toUpperCase().indexOf(filter) > -1) {
-//                 tr[i].style.display = "";
-//             } else {
-//                 tr[i].style.display = "none";
-//             }
-//         }
-//     };
-// }
-
-
-// function updateTable() {
-//     var input = document.getElementById("keyWord");
-//     var filter = input.value.toUpperCase();
-//     var table = document.getElementById("data-table_");
-//     var tr = table.getElementsByTagName("tr");
-//     for (i = 0; i < tr.length; i++) {
-//         td = tr[i].getElementsByTagName("td")[5];
-//         if (td) {
-//             txtValue = td.textContent || td.innerText;
-//             if (txtValue.toUpperCase().indexOf(filter) > -1) {
-//                 tr[i].style.display = "";
-//             } else {
-//                 tr[i].style.display = "none";
-//             }
-//         }
-//     };
-// }
-
-
