@@ -4,22 +4,19 @@ var ElectionData = data;
 
 // Select the button
 var button = d3.select("#search-btn");
-// var tbody = d3.select("tbody");
+var tbody = d3.select("tbody");
 button.on("click", function () {
+    tbody.html("");
     // Select the input element and get the raw HTML node
     var inputCounty = d3.select("#county");
+    var inputState = d3.select("#state");
     // Get the value property of the input element for County
     var inputValueCounty = inputCounty.property("value");
-    if (inputValueCounty) {
-        var filteredData = ElectionData.filter(Election => Election.county.toLowerCase() === inputValueCounty.toLowerCase())
-    };
-    
-    var inputState = d3.select("#state");
     var inputValueState = inputState.property("value");
-    if (inputValueState) {
-        var filteredData = ElectionData.filter(Election => Election.state.toLowerCase() === inputValueState.toLowerCase())
-    };
-    
+    // if (inputValueCounty) {
+    var filteredData = ElectionData.filter(Election => Election.county.toLowerCase() === inputValueCounty.toLowerCase() && Election.state.toLowerCase() === inputValueState.toLowerCase())
+    // };
+
     //Render Table
     // Get a reference to the table body
     tbody = d3.select("tbody");
