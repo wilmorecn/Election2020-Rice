@@ -13,6 +13,7 @@ button.on("click", function () {
     if (inputValueCounty) {
         var filteredData = ElectionData.filter(Election => Election.county.toLowerCase() === inputValueCounty.toLowerCase())
     };
+    
     var inputState = d3.select("#state");
     var inputValueState = inputState.property("value");
     if (inputValueState) {
