@@ -26,8 +26,14 @@ def predict():
         variables.append(float(request.form[key]))
     variables_np = np.asarray(variables).reshape(1, -1)
     prediction = regressor.predict(variables_np)
+    prediction = prediction.astype(int)[0]
+    if prediction > 0:
+        winner = 'Republicans'
+    else:
+        winner = 'Democrats'
+    margin = abs(prediction)
     # predictions = regressor.predict(variables)
-    return render_template("predict.html", variables=variables, prediction=prediction)
+    return render_template("predict.html", variables=variables, winner=winner, margin=margin)
 
 
 # @app.route("/model", methods = ['POST', 'GET'])
