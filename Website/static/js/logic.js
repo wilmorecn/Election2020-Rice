@@ -7,31 +7,23 @@ var button = d3.select("#search-btn");
 // var tbody = d3.select("tbody");
 button.on("click", function () {
     // Select the input element and get the raw HTML node
-    var inputCounty = d3.select("#county-input");
-    // var inputState = d3.select("#state-input");
+    var inputCounty = d3.select("#county");
     // Get the value property of the input element for County
     var inputValueCounty = inputCounty.property("value");
-    // var inputValueState = inputState.property("value");
-    // console.log(inputValue);
-    // console.log(ElectionData);
     if (inputValueCounty) {
-        var filteredDataCounty = ElectionData.filter(Election => Election.county.toLowerCase() === inputValueCounty.toLowerCase())
-        // console.log("Here");
-        // console.log(filteredData);
-        // console.log("Here");
+        var filteredData = ElectionData.filter(Election => Election.county.toLowerCase() === inputValueCounty.toLowerCase())
     };
-    // *if (inputValueState) {
-    //     *var filteredDataState = ElectionData.filter(Election => Election.state.toLowerCase() === inputValueState.toLowerCase())
-    //     // console.log("Here");
-    //     // console.log(filteredDataState);
-    //     // console.log("Here");
-    // };
+    var inputState = d3.select("#state");
+    var inputValueState = inputState.property("value");
+    if (inputValueState) {
+        var filteredData = ElectionData.filter(Election => Election.state.toLowerCase() === inputValueState.toLowerCase())
+    };
     
     //Render Table
     // Get a reference to the table body
     tbody = d3.select("tbody");
     //Use d3 to update each cell's text with election data 
-    filteredDataCounty.forEach(function (ElectionResults) {
+    filteredData.forEach(function (ElectionResults) {
         var row = tbody.append("tr");
         Object.entries(ElectionResults).forEach(function ([key, value]) {
             // Append a cell to the row for each value

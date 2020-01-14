@@ -145,13 +145,13 @@
           </script>
           <br>
           <hr>
-          <div>
+          div>
             <p style="font-style: italic;">Looking for a specific county's historical election results?
             </p>
-            <div>
-              <input class="form-control" id="county" type="text" placeholder="County Full Name">
-              <input class="form-control" id="state" type="text" placeholder="State Full Name">
-            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4"><input class="form-control" id="county" type="text" placeholder="County Full Name"></div>
+            <div class="col-md-4"><input class="form-control" id="state" type="text" placeholder="State Full Name"></div>
+            <div class="col-md-2"></div>
             <div><button id="search-btn" type="button" class="btn btn-default">Search Now</button></div>
             <br>
 
@@ -320,6 +320,7 @@
               <p>Using vectorized descriptions, the model below predicts the political party election results for the
                 2020 presidential election.
               </p>
+              <input class="form-control" id="predict" type="text" placeholder="Name Here"></div>
               <button class='btn'><a style="color: white" href="#">Predict the Next President</a></button>
             </div>
           </div>
