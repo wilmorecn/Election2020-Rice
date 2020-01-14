@@ -1,15 +1,34 @@
 from flask import Flask, jsonify, render_template, send_file, request
-from keras.models import load_model
-from keras import backend as K
+
 import pickle
 import numpy as np
-
+# Add This
+from sklearn.ensemble import RandomForestRegressor
 
 app = Flask(__name__)
 # render out an index page
 @app.route("/")
 def home():
     return render_template("index.html")
+
+# Add This
+filename = 'static/models/random_forest_regressor.pkl'
+regressor = pickle.load(open(filename, 'rb'))
+@app.route("/enterdata", methods = ['POST', 'GET'])
+def enterdata():
+    return render_template("enterdata.html")
+
+#Add This
+@app.route("/predict", methods = ['POST', 'GET'])
+def predict():
+    variables = []
+    for key in request.form.keys():
+        variables.append(float(request.form[key]))
+    variables_np = np.asarray(variables).reshape(1, -1)
+    prediction = regressor.predict(variables_np)
+    # predictions = regressor.predict(variables)
+    return render_template("predict.html", variables=variables, prediction=prediction)
+
 
 # @app.route("/model", methods = ['POST', 'GET'])
 # def model():
@@ -58,4 +77,4 @@ def home():
 
 if __name__ == "__main__":
     # load_keras_model()
-    app.run()
+    app.run(debug=True)
