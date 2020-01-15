@@ -27,13 +27,15 @@ def predict():
     variables_np = np.asarray(variables).reshape(1, -1)
     prediction = regressor.predict(variables_np)
     prediction = prediction.astype(int)[0]
+
     if prediction > 0:
         winner = 'Republicans'
+        image_link = '../static/images/Trump.jpg'
     else:
         winner = 'Democrats'
+        image_link = '../static/images/Bernie.png'
     margin = abs(prediction)
-    # predictions = regressor.predict(variables)
-    return render_template("predict.html", variables=variables, winner=winner, margin=margin)
+    return render_template("predict.html", variables=variables, winner=winner, margin=margin, image_link=image_link)
 
 
 # @app.route("/model", methods = ['POST', 'GET'])
