@@ -21,74 +21,101 @@
 </head>
 
 <body>
-    <form role = "form" method = "POST" action="/predict">
-      <div class="form-group">
-        % Evangelical Protestant:
-        <input type="text" name="evangelical" value = 20><br>
-        % Black Protestant:
-        <input type="text" name="black_protestant" value = 10><br>
-        % Mainline Protestant:
-        <input type="text" name="mainline_protestant" value = 30><br>
-        % Catholic:
-        <input type="text" name="catholic" value = 5><br>
-        % Orthodox:
-        <input type="text" name="orthodox" value = 1><br>
-        % Other Religion:
-        <input type="text" name="other_religion" value = 4><br>
-        % Non Religious:
-        <input type="text" name="no_religion" value = 30><br>
+  <div class="banner">
 
-        Population Density (Per Sq. Mile):
-        <input type="text" name="pop_density" value = 500><br>
-        % Total Population: Male:
-        <input type="text" name="male" value = 50><br>
-        % Total Population: Female:
-        <input type="text" name="female" value = 50><br>
+    <div class="banner-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
 
-        % Total Population: 18 to 34 Years:
-        <input type="text" name="18_to_34" value = 30><br>
-        % Total Population: 35 to 64 Years:
-        <input type="text" name="35_to_64" value = 30><br>
-        % Total Population: 65 and Over:
-        <input type="text" name="65_and_up" value = 30><br>
+            <h1>Rice Analytica 2020</h1>
+            <h3>Historical Election Data and 2020 Predictions</h3>
+            <br>
 
-        % Total Population: White Alone:
-        <input type="text" name="white" value = 80><br>
-        % Total Population: Black or African American Alone:
-        <input type="text" name="black" value = 15><br>
-        % Total Population: American Indian and Alaska Native Alone:
-        <input type="text" name="indian" value = 0><br>
-        % Total Population: Asian Alone:
-        <input type="text" name="asian" value = 5><br>
-        % Total population: Hispanic or Latino:
-        <input type="text" name="hispanic" value = 30><br>
+            <a class="mini_link" href="https://github.com/Ricochet8/Election2020-Rice" target="_blank">VIEW GITHUB
+              <span>&#8594;</span>
+            </a>
 
-        % Population 15 Years and Over: Never Married:
-        <input type="text" name="never_married" value = 30><br>
-        % Population 15 Years and Over: Now Married (Not Including Separated):
-        <input type="text" name="married" value = 40><br>
-        % Population 15 Years and Over: Divorced:
-        <input type="text" name="divorced" value = 30><br>
-        % Single Parent Households:
-        <input type="text" name="single_parent" value = 10><br>
-        Average Household Size:
-        <input type="text" name="house_size" value = 3><br>
-
-        % College or Above:
-        <input type="text" name="college" value = 30><br>
-        % Gini Index:
-        <input type="text" name="gini" value = 0.5><br>
-        % Median Income:
-        <input type="text" name="income" value = 50000><br>
-        % Civilian Population 18 Years and Over: Veteran:
-        <input type="text" name="veteran" value = 20><br>
-        % Civilian Population 18 Years and Over: Nonveteran:
-        <input type="text" name="non_veteran" value = 80><br>
+          </div>
+        </div>
       </div>
+    </div>
 
-        <input type="submit" value="Submit">
+  </div>
+  <div class="row">
+    <div class="col-md-1" style="margin-top: 0; margin-left:0;"></div>
+    <div class="col-md-9" style="margin-top: 0; margin-left:0;">
+      <h2>Please enter your county's most current data below to predict the 2020 Election Outcome!</h2>
+      <form role="form" method="POST" action="/predict">
+        <div class="form-group">
+          % Evangelical Protestant:
+          <input type="text" name="evangelical" value=20><br>
+          % Black Protestant:
+          <input type="text" name="black_protestant" value=10><br>
+          % Mainline Protestant:
+          <input type="text" name="mainline_protestant" value=30><br>
+          % Catholic:
+          <input type="text" name="catholic" value=5><br>
+          % Orthodox:
+          <input type="text" name="orthodox" value=1><br>
+          % Other Religion:
+          <input type="text" name="other_religion" value=4><br>
+          % Non Religious:
+          <input type="text" name="no_religion" value=30><br>
 
+          Population Density (Per Sq. Mile):
+          <input type="text" name="pop_density" value=500><br>
+          % Total Population: Male:
+          <input type="text" name="male" value=50><br>
+          % Total Population: Female:
+          <input type="text" name="female" value=50><br>
+
+          % Total Population: 18 to 34 Years:
+          <input type="text" name="18_to_34" value=30><br>
+          % Total Population: 35 to 64 Years:
+          <input type="text" name="35_to_64" value=30><br>
+          % Total Population: 65 and Over:
+          <input type="text" name="65_and_up" value=30><br>
+
+          % Total Population: White Alone:
+          <input type="text" name="white" value=80><br>
+          % Total Population: Black or African American Alone:
+          <input type="text" name="black" value=15><br>
+          % Total Population: American Indian and Alaska Native Alone:
+          <input type="text" name="indian" value=0><br>
+          % Total Population: Asian Alone:
+          <input type="text" name="asian" value=5><br>
+          % Total population: Hispanic or Latino:
+          <input type="text" name="hispanic" value=30><br>
+
+          % Population 15 Years and Over: Never Married:
+          <input type="text" name="never_married" value=30><br>
+          % Population 15 Years and Over: Now Married (Not Including Separated):
+          <input type="text" name="married" value=40><br>
+          % Population 15 Years and Over: Divorced:
+          <input type="text" name="divorced" value=30><br>
+          % Single Parent Households:
+          <input type="text" name="single_parent" value=10><br>
+          Average Household Size:
+          <input type="text" name="house_size" value=3><br>
+
+          % College or Above:
+          <input type="text" name="college" value=30><br>
+          % Gini Index:
+          <input type="text" name="gini" value=0.5><br>
+          % Median Income:
+          <input type="text" name="income" value=50000><br>
+          % Civilian Population 18 Years and Over: Veteran:
+          <input type="text" name="veteran" value=20><br>
+          % Civilian Population 18 Years and Over: Nonveteran:
+          <input type="text" name="non_veteran" value=80><br>
+          </div>
+          <input type="submit" value="Submit">
+        </div>
       </form>
+    <div class="col-md-2" style="margin-top: 0; margin-left:0;"></div>
+  </div>
+
 </body>
 
 </html>
