@@ -29,42 +29,21 @@ hr {
 }
 
 .banner {
-            color: white;
-            padding-top: 6rem;
-            padding-bottom: 2rem;
-            border-bottom: 1px solid #181818;
-            max-width: 100%;
-            background: linear-gradient(rgba(45, 0, 0, 0.45),
-                    rgba(45, 0, 0, 0.817)),
-                url("../images/banner_4.jpg");
-            /* height: auto;*/
-            min-height: 30rem;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-
-        }
-        .banner_1 {
-            color: white;
-            padding-top: 6rem;
-            padding-bottom: 2rem;
-            border-bottom: 1px solid #181818;
-            max-width: 100%;
-            background-image: 
-                url("../images/banner_4.jpg");
-            /* background: linear-gradient(rgba(8, 0, 52, 0.45),
-                    rgba(0, 1, 45, 0.817)),
-                url("../images/alcohol-background-bar-301692_1.jpg"); */
-            /* height: auto; */
-            filter: grayscale(50%);
-            min-height: 30rem;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-
-        }
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #181818;
+    max-width: 100%;
+    background: linear-gradient(rgba(45, 0, 0, 0.45),
+            rgba(45, 0, 0, 0.817)),
+        url("../images/banner_4.jpg");
+    /* height: auto;*/
+    min-height: 30rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .banner-predict {
     color: white;
@@ -81,81 +60,97 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
-        .banner-content {
-            max-width: 1170px;
-            margin: 2rem auto;
-            color: white;
-        }
 
-        .content {
-            margin: 2rem auto;
-            max-width: 1170px;
-        }
+.banner-enterdata {
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #181818;
+    max-width: 100%;
+    background: linear-gradient(rgba(45, 0, 0, 0.45),
+            rgba(45, 0, 0, 0.817)),
+        url("../images/banner_1.png");
+    /* height: auto;*/
+    min-height: 30rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .banner-content {
+        max-width: 1170px;
+        margin: 2rem auto;
+        color: white;
+    }
 
-        .svg_font {
-            font-family: Vast Shadow;
-            font-size: 8rem;
-            color: white;
-            fill: white;
-            opacity: 0.5;
-            z-index: 99;
-        }
+    .content {
+        margin: 2rem auto;
+        max-width: 1170px;
+    }
 
-        h1 {
-            font-family: Gill Sans Extrabold, Helvetica, Arial, serif;
-            font-size: 45px;
-            font-style: normal;
-            font-weight: normal;
-            letter-spacing: 5px;
-            line-height: 30px;
-            text-transform: uppercase;
-            text-align: center;
-        }
+    .svg_font {
+        font-family: Vast Shadow;
+        font-size: 8rem;
+        color: white;
+        fill: white;
+        opacity: 0.5;
+        z-index: 99;
+    }
 
-        h2 {
-            font-family: Georgia, serif;
-            font-size: 30px;
-            font-style: normal;
-            font-weight: normal;
-            letter-spacing: 3px;
-            line-height: 26px;
-            text-transform: uppercase;
-            text-align: center;
-        }
+    h1 {
+        font-family: Gill Sans Extrabold, Helvetica, Arial, serif;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: 5px;
+        line-height: 30px;
+        text-transform: uppercase;
+        text-align: center;
+    }
 
-        h3 {
-            font-family: Montserrat, Helvetica, Arial, serif;
-            font-size: 25px;
-            font-style: normal;
-            font-weight: normal;
-            letter-spacing: 3px;
-            line-height: 26px;
-            text-transform: uppercase;
-            text-align: center;
-        }
+    h2 {
+        font-family: Georgia, serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: 3px;
+        line-height: 26px;
+        text-transform: uppercase;
+        text-align: center;
+    }
 
-        h4 {
-            font-family: Lato, 'Times New Roman', serif;
-            font-size: 20px;
-            font-style: italic;
-            font-weight: normal;
-            letter-spacing: normal;
-            line-height: 30px;
-            text-transform: none;
-            text-align: center;
-        }
+    h3 {
+        font-family: Montserrat, Helvetica, Arial, serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: 3px;
+        line-height: 26px;
+        text-transform: uppercase;
+        text-align: center;
+    }
 
-        p {
-            font-family: Lato, 'Times New Roman', serif;
-            font-size: 19px;
-            font-style: normal;
-            font-weight: normal;
-            letter-spacing: normal;
-            line-height: 2em;
-            text-transform: none;
-        }
+    h4 {
+        font-family: Lato, 'Times New Roman', serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: normal;
+        letter-spacing: normal;
+        line-height: 30px;
+        text-transform: none;
+        text-align: center;
+    }
+
+    p {
+        font-family: Lato, 'Times New Roman', serif;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: normal;
+        line-height: 2em;
+        text-transform: none;
+    }
 
         a {
             /* font-family: Montserrat, 'Times New Roman', serif; */
