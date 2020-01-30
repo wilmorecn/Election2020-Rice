@@ -28,6 +28,14 @@ hr {
     background: white;
 }
 
+.left-pic {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+    vertical-align: left;
+    padding-top: 50%;
+}
+
 .banner {
     color: white;
     padding-top: 6rem;
