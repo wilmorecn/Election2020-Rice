@@ -1,5 +1,4 @@
 # Rice-Election2020
-Christy Dafonte, Devon Firestone, Douglas McNeil, Wenyuan Qiu, Elizabeth Shaw
+Christy Dafonte, Devon Firestone, Wenyuan Qiu, Elizabeth Shaw
 
-Please only work in your marked "notebook" folder until we are pushing for testing. 
-Add csvs to dataFiles folder.
+Click on the website and enter your county's information to see which party it will vote for in the 2020 election!
